@@ -12270,7 +12270,7 @@
   if (typeof define == 'function' && typeof define.amd == 'object' && define.amd) {
     // Define as an anonymous module so, through path mapping, it can be
     // referenced as the "underscore" module.
-    define(function() {
+    define("lodash", [], function() {
       return _;
     });
   }
