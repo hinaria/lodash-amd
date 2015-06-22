@@ -1,5 +1,4 @@
-define(['../lang/isArray', './toObject'], function(isArray, toObject) {
-
+define(["lodash/internal/isKey"], ["lodash/lang/isArray", "lodash/internal/toObject"], function(isArray, toObject) {
   /** Used to match property names within property paths. */
   var reIsDeepProp = /\.|\[(?:[^[\]]*|(["'])(?:(?!\1)[^\n\\]|\\.)*?\1)\]/,
       reIsPlainProp = /^\w*$/;

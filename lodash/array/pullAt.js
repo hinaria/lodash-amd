@@ -1,5 +1,4 @@
-define(['../internal/baseAt', '../internal/baseCompareAscending', '../internal/baseFlatten', '../internal/basePullAt', '../function/restParam'], function(baseAt, baseCompareAscending, baseFlatten, basePullAt, restParam) {
-
+define(["lodash/array/pullAt"], ["lodash/internal/baseAt", "lodash/internal/baseCompareAscending", "lodash/internal/baseFlatten", "lodash/internal/basePullAt", "lodash/function/restParam"], function(baseAt, baseCompareAscending, baseFlatten, basePullAt, restParam) {
   /**
    * Removes elements from `array` corresponding to the given indexes and returns
    * an array of the removed elements. Indexes may be specified as an array of

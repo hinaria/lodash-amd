@@ -1,3 +1,2 @@
-define(["./includes"], function(includes) {
-  return includes;
+define(["lodash/collection/include"], ["lodash/collection/includes"], function(includes) {  return includes;
 });

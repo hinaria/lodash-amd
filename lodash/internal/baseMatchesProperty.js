@@ -1,5 +1,4 @@
-define(['./baseGet', './baseIsEqual', './baseSlice', '../lang/isArray', './isKey', './isStrictComparable', '../array/last', './toObject', './toPath'], function(baseGet, baseIsEqual, baseSlice, isArray, isKey, isStrictComparable, last, toObject, toPath) {
-
+define(["lodash/internal/baseMatchesProperty"], ["lodash/internal/baseGet", "lodash/internal/baseIsEqual", "lodash/internal/baseSlice", "lodash/lang/isArray", "lodash/internal/isKey", "lodash/internal/isStrictComparable", "lodash/array/last", "lodash/internal/toObject", "lodash/internal/toPath"], function(baseGet, baseIsEqual, baseSlice, isArray, isKey, isStrictComparable, last, toObject, toPath) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

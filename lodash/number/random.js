@@ -1,5 +1,4 @@
-define(['../internal/baseRandom', '../internal/isIterateeCall'], function(baseRandom, isIterateeCall) {
-
+define(["lodash/number/random"], ["lodash/internal/baseRandom", "lodash/internal/isIterateeCall"], function(baseRandom, isIterateeCall) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

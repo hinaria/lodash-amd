@@ -1,5 +1,4 @@
-define(['../internal/root'], function(root) {
-
+define(["lodash/function/after"], ["lodash/internal/root"], function(root) {
   /** Used as the `TypeError` message for "Functions" methods. */
   var FUNC_ERROR_TEXT = 'Expected a function';
 

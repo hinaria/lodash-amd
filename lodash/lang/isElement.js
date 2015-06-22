@@ -1,5 +1,4 @@
-define(['../internal/isObjectLike', './isPlainObject'], function(isObjectLike, isPlainObject) {
-
+define(["lodash/lang/isElement"], ["lodash/internal/isObjectLike", "lodash/lang/isPlainObject"], function(isObjectLike, isPlainObject) {
   /**
    * Checks if `value` is a DOM element.
    *

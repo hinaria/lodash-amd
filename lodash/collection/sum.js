@@ -1,3 +1,2 @@
-define(["../math/sum"], function(sum) {
-  return sum;
+define(["lodash/collection/sum"], ["lodash/math/sum"], function(sum) {  return sum;
 });

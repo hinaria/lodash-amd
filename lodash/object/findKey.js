@@ -1,5 +1,4 @@
-define(['../internal/baseForOwn', '../internal/createFindKey'], function(baseForOwn, createFindKey) {
-
+define(["lodash/object/findKey"], ["lodash/internal/baseForOwn", "lodash/internal/createFindKey"], function(baseForOwn, createFindKey) {
   /**
    * This method is like `_.find` except that it returns the key of the first
    * element `predicate` returns truthy for instead of the element itself.

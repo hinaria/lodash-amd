@@ -1,5 +1,4 @@
-define(['../internal/baseValues', './keys'], function(baseValues, keys) {
-
+define(["lodash/object/values"], ["lodash/internal/baseValues", "lodash/object/keys"], function(baseValues, keys) {
   /**
    * Creates an array of the own enumerable property values of `object`.
    *

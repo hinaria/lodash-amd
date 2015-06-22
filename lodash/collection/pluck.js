@@ -1,5 +1,4 @@
-define(['./map', '../utility/property'], function(map, property) {
-
+define(["lodash/collection/pluck"], ["lodash/collection/map", "lodash/utility/property"], function(map, property) {
   /**
    * Gets the property value of `path` from all elements in `collection`.
    *

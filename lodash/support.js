@@ -1,5 +1,4 @@
-define([], function() {
-
+define(["lodash/support"], [], function() {
   /**
    * An object environment feature flags.
    *

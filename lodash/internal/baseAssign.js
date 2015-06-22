@@ -1,5 +1,4 @@
-define(['./baseCopy', '../object/keys'], function(baseCopy, keys) {
-
+define(["lodash/internal/baseAssign"], ["lodash/internal/baseCopy", "lodash/object/keys"], function(baseCopy, keys) {
   /**
    * The base implementation of `_.assign` without support for argument juggling,
    * multiple sources, and `customizer` functions.

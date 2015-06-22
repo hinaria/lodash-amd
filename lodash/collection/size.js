@@ -1,5 +1,4 @@
-define(['../internal/getLength', '../internal/isLength', '../object/keys'], function(getLength, isLength, keys) {
-
+define(["lodash/collection/size"], ["lodash/internal/getLength", "lodash/internal/isLength", "lodash/object/keys"], function(getLength, isLength, keys) {
   /**
    * Gets the size of `collection` by returning its length for array-like
    * values or the number of own enumerable properties for objects.

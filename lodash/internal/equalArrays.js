@@ -1,5 +1,4 @@
-define(['./arraySome'], function(arraySome) {
-
+define(["lodash/internal/equalArrays"], ["lodash/internal/arraySome"], function(arraySome) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

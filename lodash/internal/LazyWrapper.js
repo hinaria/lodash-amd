@@ -1,5 +1,4 @@
-define(['./baseCreate', './baseLodash'], function(baseCreate, baseLodash) {
-
+define(["lodash/internal/LazyWrapper"], ["lodash/internal/baseCreate", "lodash/internal/baseLodash"], function(baseCreate, baseLodash) {
   /** Used as references for `-Infinity` and `Infinity`. */
   var POSITIVE_INFINITY = Number.POSITIVE_INFINITY;
 

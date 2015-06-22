@@ -1,5 +1,4 @@
-define(['../internal/baseSlice', '../internal/isIterateeCall'], function(baseSlice, isIterateeCall) {
-
+define(["lodash/array/drop"], ["lodash/internal/baseSlice", "lodash/internal/isIterateeCall"], function(baseSlice, isIterateeCall) {
   /**
    * Creates a slice of `array` with `n` elements dropped from the beginning.
    *

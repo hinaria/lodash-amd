@@ -1,5 +1,4 @@
-define([], function() {
-
+define(["lodash/internal/mapSet"], [], function() {
   /**
    * Sets `value` to `key` of the cache.
    *

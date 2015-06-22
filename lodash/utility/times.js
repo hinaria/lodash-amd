@@ -1,5 +1,4 @@
-define(['../internal/bindCallback', '../internal/root'], function(bindCallback, root) {
-
+define(["lodash/utility/times"], ["lodash/internal/bindCallback", "lodash/internal/root"], function(bindCallback, root) {
   /* Native method references for those with the same name as other `lodash` methods. */
   var nativeFloor = Math.floor,
       nativeIsFinite = root.isFinite,

@@ -1,5 +1,4 @@
-define(['./arrayExtremum', './baseCallback', './baseExtremum', './isIterateeCall', './toIterable'], function(arrayExtremum, baseCallback, baseExtremum, isIterateeCall, toIterable) {
-
+define(["lodash/internal/createExtremum"], ["lodash/internal/arrayExtremum", "lodash/internal/baseCallback", "lodash/internal/baseExtremum", "lodash/internal/isIterateeCall", "lodash/internal/toIterable"], function(arrayExtremum, baseCallback, baseExtremum, isIterateeCall, toIterable) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

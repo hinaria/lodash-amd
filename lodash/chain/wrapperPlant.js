@@ -1,5 +1,4 @@
-define(['../internal/baseLodash', '../internal/wrapperClone'], function(baseLodash, wrapperClone) {
-
+define(["lodash/chain/wrapperPlant"], ["lodash/internal/baseLodash", "lodash/internal/wrapperClone"], function(baseLodash, wrapperClone) {
   /**
    * Creates a clone of the chained sequence planting `value` as the wrapped value.
    *

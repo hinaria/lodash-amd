@@ -1,5 +1,4 @@
-define(['./createBaseFor'], function(createBaseFor) {
-
+define(["lodash/internal/baseFor"], ["lodash/internal/createBaseFor"], function(createBaseFor) {
   /**
    * The base implementation of `baseForIn` and `baseForOwn` which iterates
    * over `object` properties returned by `keysFunc` invoking `iteratee` for

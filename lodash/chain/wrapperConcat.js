@@ -1,5 +1,4 @@
-define(['../internal/arrayConcat', '../internal/baseFlatten', '../lang/isArray', '../function/restParam', '../internal/toObject'], function(arrayConcat, baseFlatten, isArray, restParam, toObject) {
-
+define(["lodash/chain/wrapperConcat"], ["lodash/internal/arrayConcat", "lodash/internal/baseFlatten", "lodash/lang/isArray", "lodash/function/restParam", "lodash/internal/toObject"], function(arrayConcat, baseFlatten, isArray, restParam, toObject) {
   /**
    * Creates a new array joining a wrapped array with any additional arrays
    * and/or values.

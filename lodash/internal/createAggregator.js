@@ -1,5 +1,4 @@
-define(['./baseCallback', './baseEach', '../lang/isArray'], function(baseCallback, baseEach, isArray) {
-
+define(["lodash/internal/createAggregator"], ["lodash/internal/baseCallback", "lodash/internal/baseEach", "lodash/lang/isArray"], function(baseCallback, baseEach, isArray) {
   /**
    * Creates a function that aggregates a collection, creating an accumulator
    * object composed from the results of running each element in the collection

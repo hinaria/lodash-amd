@@ -1,5 +1,4 @@
-define(['../lang/isObject'], function(isObject) {
-
+define(["lodash/internal/isStrictComparable"], ["lodash/lang/isObject"], function(isObject) {
   /**
    * Checks if `value` is suitable for strict equality comparisons, i.e. `===`.
    *

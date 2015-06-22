@@ -1,5 +1,4 @@
-define(['./toObject'], function(toObject) {
-
+define(["lodash/internal/createBaseFor"], ["lodash/internal/toObject"], function(toObject) {
   /**
    * Creates a base function for `_.forIn` or `_.forInRight`.
    *

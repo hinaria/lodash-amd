@@ -1,5 +1,4 @@
-define(['../internal/arrayEachRight', '../internal/baseEachRight', '../internal/createForEach'], function(arrayEachRight, baseEachRight, createForEach) {
-
+define(["lodash/collection/forEachRight"], ["lodash/internal/arrayEachRight", "lodash/internal/baseEachRight", "lodash/internal/createForEach"], function(arrayEachRight, baseEachRight, createForEach) {
   /**
    * This method is like `_.forEach` except that it iterates over elements of
    * `collection` from right to left.

@@ -1,5 +1,4 @@
-define(['../internal/isLength', '../internal/isObjectLike'], function(isLength, isObjectLike) {
-
+define(["lodash/lang/isTypedArray"], ["lodash/internal/isLength", "lodash/internal/isObjectLike"], function(isLength, isObjectLike) {
   /** `Object#toString` result references. */
   var argsTag = '[object Arguments]',
       arrayTag = '[object Array]',

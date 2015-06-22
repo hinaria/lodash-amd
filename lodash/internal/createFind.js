@@ -1,5 +1,4 @@
-define(['./baseCallback', './baseFind', './baseFindIndex', '../lang/isArray'], function(baseCallback, baseFind, baseFindIndex, isArray) {
-
+define(["lodash/internal/createFind"], ["lodash/internal/baseCallback", "lodash/internal/baseFind", "lodash/internal/baseFindIndex", "lodash/lang/isArray"], function(baseCallback, baseFind, baseFindIndex, isArray) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

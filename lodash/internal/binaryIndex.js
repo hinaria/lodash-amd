@@ -1,5 +1,4 @@
-define(['./binaryIndexBy', '../utility/identity'], function(binaryIndexBy, identity) {
-
+define(["lodash/internal/binaryIndex"], ["lodash/internal/binaryIndexBy", "lodash/utility/identity"], function(binaryIndexBy, identity) {
   /** Used as references for the maximum length and index of an array. */
   var MAX_ARRAY_LENGTH = 4294967295,
       HALF_MAX_ARRAY_LENGTH = MAX_ARRAY_LENGTH >>> 1;

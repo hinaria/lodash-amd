@@ -1,5 +1,4 @@
-define(['./bindCallback', '../object/keysIn'], function(bindCallback, keysIn) {
-
+define(["lodash/internal/createForIn"], ["lodash/internal/bindCallback", "lodash/object/keysIn"], function(bindCallback, keysIn) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

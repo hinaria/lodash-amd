@@ -1,5 +1,4 @@
-define([], function() {
-
+define(["lodash/internal/mapDelete"], [], function() {
   /**
    * Removes `key` and its value from the cache.
    *

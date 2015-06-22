@@ -1,5 +1,4 @@
-define(['./baseEach'], function(baseEach) {
-
+define(["lodash/internal/baseSome"], ["lodash/internal/baseEach"], function(baseEach) {
   /**
    * The base implementation of `_.some` without support for callback shorthands
    * and `this` binding.

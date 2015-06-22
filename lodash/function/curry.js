@@ -1,5 +1,4 @@
-define(['../internal/createCurry'], function(createCurry) {
-
+define(["lodash/function/curry"], ["lodash/internal/createCurry"], function(createCurry) {
   /** Used to compose bitmasks for wrapper metadata. */
   var CURRY_FLAG = 8;
 

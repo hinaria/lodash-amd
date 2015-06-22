@@ -1,5 +1,4 @@
-define(['./before'], function(before) {
-
+define(["lodash/function/once"], ["lodash/function/before"], function(before) {
   /**
    * Creates a function that is restricted to invoking `func` once. Repeat calls
    * to the function return the value of the first call. The `func` is invoked

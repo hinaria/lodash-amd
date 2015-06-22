@@ -1,5 +1,4 @@
-define(['../internal/baseFill', '../internal/isIterateeCall'], function(baseFill, isIterateeCall) {
-
+define(["lodash/array/fill"], ["lodash/internal/baseFill", "lodash/internal/isIterateeCall"], function(baseFill, isIterateeCall) {
   /**
    * Fills elements of `array` with `value` from `start` up to, but not
    * including, `end`.

@@ -1,5 +1,4 @@
-define(['../internal/baseClone', '../internal/baseMatches'], function(baseClone, baseMatches) {
-
+define(["lodash/utility/matches"], ["lodash/internal/baseClone", "lodash/internal/baseMatches"], function(baseClone, baseMatches) {
   /**
    * Creates a function that performs a deep comparison between a given object
    * and `source`, returning `true` if the given object has equivalent property

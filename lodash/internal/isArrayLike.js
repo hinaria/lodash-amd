@@ -1,5 +1,4 @@
-define(['./getLength', './isLength'], function(getLength, isLength) {
-
+define(["lodash/internal/isArrayLike"], ["lodash/internal/getLength", "lodash/internal/isLength"], function(getLength, isLength) {
   /**
    * Checks if `value` is array-like.
    *

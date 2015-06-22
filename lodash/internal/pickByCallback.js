@@ -1,5 +1,4 @@
-define(['./baseForIn'], function(baseForIn) {
-
+define(["lodash/internal/pickByCallback"], ["lodash/internal/baseForIn"], function(baseForIn) {
   /**
    * A specialized version of `_.pick` which picks `object` properties `predicate`
    * returns truthy for.

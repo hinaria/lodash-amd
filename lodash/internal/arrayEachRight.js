@@ -1,5 +1,4 @@
-define([], function() {
-
+define(["lodash/internal/arrayEachRight"], [], function() {
   /**
    * A specialized version of `_.forEachRight` for arrays without support for
    * callback shorthands and `this` binding.

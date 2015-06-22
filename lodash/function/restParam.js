@@ -1,5 +1,4 @@
-define([], function() {
-
+define(["lodash/function/restParam"], [], function() {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

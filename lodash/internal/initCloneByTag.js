@@ -1,5 +1,4 @@
-define(['./bufferClone'], function(bufferClone) {
-
+define(["lodash/internal/initCloneByTag"], ["lodash/internal/bufferClone"], function(bufferClone) {
   /** `Object#toString` result references. */
   var boolTag = '[object Boolean]',
       dateTag = '[object Date]',

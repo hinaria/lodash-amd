@@ -1,5 +1,4 @@
-define(['./utility/attempt', './utility/callback', './utility/constant', './utility/identity', './utility/iteratee', './utility/matches', './utility/matchesProperty', './utility/method', './utility/methodOf', './utility/mixin', './utility/noop', './utility/property', './utility/propertyOf', './utility/range', './utility/times', './utility/uniqueId'], function(attempt, callback, constant, identity, iteratee, matches, matchesProperty, method, methodOf, mixin, noop, property, propertyOf, range, times, uniqueId) {
-  return {
+define(["lodash/utility"], ["lodash/utility/attempt", "lodash/utility/callback", "lodash/utility/constant", "lodash/utility/identity", "lodash/utility/iteratee", "lodash/utility/matches", "lodash/utility/matchesProperty", "lodash/utility/method", "lodash/utility/methodOf", "lodash/utility/mixin", "lodash/utility/noop", "lodash/utility/property", "lodash/utility/propertyOf", "lodash/utility/range", "lodash/utility/times", "lodash/utility/uniqueId"], function(attempt, callback, constant, identity, iteratee, matches, matchesProperty, method, methodOf, mixin, noop, property, propertyOf, range, times, uniqueId) {  return {
     'attempt': attempt,
     'callback': callback,
     'constant': constant,

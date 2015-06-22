@@ -1,5 +1,4 @@
-define(['../internal/baseIsEqual', '../internal/bindCallback'], function(baseIsEqual, bindCallback) {
-
+define(["lodash/lang/isEqual"], ["lodash/internal/baseIsEqual", "lodash/internal/bindCallback"], function(baseIsEqual, bindCallback) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

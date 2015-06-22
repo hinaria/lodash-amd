@@ -1,5 +1,4 @@
-define(['./lodash'], function(lodash) {
-
+define(["lodash/chain/chain"], ["lodash/chain/lodash"], function(lodash) {
   /**
    * Creates a `lodash` object that wraps `value` with explicit method
    * chaining enabled.

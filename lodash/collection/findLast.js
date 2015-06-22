@@ -1,5 +1,4 @@
-define(['../internal/baseEachRight', '../internal/createFind'], function(baseEachRight, createFind) {
-
+define(["lodash/collection/findLast"], ["lodash/internal/baseEachRight", "lodash/internal/createFind"], function(baseEachRight, createFind) {
   /**
    * This method is like `_.find` except that it iterates over elements of
    * `collection` from right to left.

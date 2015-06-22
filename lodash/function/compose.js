@@ -1,3 +1,2 @@
-define(["./flowRight"], function(flowRight) {
-  return flowRight;
+define(["lodash/function/compose"], ["lodash/function/flowRight"], function(flowRight) {  return flowRight;
 });

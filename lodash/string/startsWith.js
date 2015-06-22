@@ -1,5 +1,4 @@
-define(['../internal/baseToString'], function(baseToString) {
-
+define(["lodash/string/startsWith"], ["lodash/internal/baseToString"], function(baseToString) {
   /* Native method references for those with the same name as other `lodash` methods. */
   var nativeMin = Math.min;
 

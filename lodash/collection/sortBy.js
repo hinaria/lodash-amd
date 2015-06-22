@@ -1,5 +1,4 @@
-define(['../internal/baseCallback', '../internal/baseMap', '../internal/baseSortBy', '../internal/compareAscending', '../internal/isIterateeCall'], function(baseCallback, baseMap, baseSortBy, compareAscending, isIterateeCall) {
-
+define(["lodash/collection/sortBy"], ["lodash/internal/baseCallback", "lodash/internal/baseMap", "lodash/internal/baseSortBy", "lodash/internal/compareAscending", "lodash/internal/isIterateeCall"], function(baseCallback, baseMap, baseSortBy, compareAscending, isIterateeCall) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

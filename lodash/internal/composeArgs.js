@@ -1,5 +1,4 @@
-define([], function() {
-
+define(["lodash/internal/composeArgs"], [], function() {
   /* Native method references for those with the same name as other `lodash` methods. */
   var nativeMax = Math.max;
 

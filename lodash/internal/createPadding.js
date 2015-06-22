@@ -1,5 +1,4 @@
-define(['../string/repeat', './root'], function(repeat, root) {
-
+define(["lodash/internal/createPadding"], ["lodash/string/repeat", "lodash/internal/root"], function(repeat, root) {
   /* Native method references for those with the same name as other `lodash` methods. */
   var nativeCeil = Math.ceil,
       nativeIsFinite = root.isFinite;

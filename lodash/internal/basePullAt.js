@@ -1,5 +1,4 @@
-define(['./isIndex'], function(isIndex) {
-
+define(["lodash/internal/basePullAt"], ["lodash/internal/isIndex"], function(isIndex) {
   /** Used for native method references. */
   var arrayProto = Array.prototype;
 

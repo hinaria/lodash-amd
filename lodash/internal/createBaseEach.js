@@ -1,5 +1,4 @@
-define(['./getLength', './isLength', './toObject'], function(getLength, isLength, toObject) {
-
+define(["lodash/internal/createBaseEach"], ["lodash/internal/getLength", "lodash/internal/isLength", "lodash/internal/toObject"], function(getLength, isLength, toObject) {
   /**
    * Creates a `baseEach` or `baseEachRight` function.
    *

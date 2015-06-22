@@ -1,5 +1,4 @@
-define(['./baseCallback', './baseFind'], function(baseCallback, baseFind) {
-
+define(["lodash/internal/createFindKey"], ["lodash/internal/baseCallback", "lodash/internal/baseFind"], function(baseCallback, baseFind) {
   /**
    * Creates a `_.findKey` or `_.findLastKey` function.
    *

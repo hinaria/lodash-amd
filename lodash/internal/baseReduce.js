@@ -1,5 +1,4 @@
-define([], function() {
-
+define(["lodash/internal/baseReduce"], [], function() {
   /**
    * The base implementation of `_.reduce` and `_.reduceRight` without support
    * for callback shorthands and `this` binding, which iterates over `collection`

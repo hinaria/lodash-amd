@@ -1,5 +1,4 @@
-define(['../internal/baseSlice', '../internal/isIterateeCall'], function(baseSlice, isIterateeCall) {
-
+define(["lodash/array/slice"], ["lodash/internal/baseSlice", "lodash/internal/isIterateeCall"], function(baseSlice, isIterateeCall) {
   /**
    * Creates a slice of `array` from `start` up to, but not including, `end`.
    *

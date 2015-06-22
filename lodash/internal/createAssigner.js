@@ -1,5 +1,4 @@
-define(['./bindCallback', './isIterateeCall', '../function/restParam'], function(bindCallback, isIterateeCall, restParam) {
-
+define(["lodash/internal/createAssigner"], ["lodash/internal/bindCallback", "lodash/internal/isIterateeCall", "lodash/function/restParam"], function(bindCallback, isIterateeCall, restParam) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

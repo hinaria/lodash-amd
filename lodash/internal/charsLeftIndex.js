@@ -1,5 +1,4 @@
-define([], function() {
-
+define(["lodash/internal/charsLeftIndex"], [], function() {
   /**
    * Used by `_.trim` and `_.trimLeft` to get the index of the first character
    * of `string` that is not found in `chars`.

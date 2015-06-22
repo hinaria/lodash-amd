@@ -1,5 +1,4 @@
-define(['../internal/baseToString', '../internal/isIterateeCall', '../lang/isObject', '../lang/isRegExp'], function(baseToString, isIterateeCall, isObject, isRegExp) {
-
+define(["lodash/string/trunc"], ["lodash/internal/baseToString", "lodash/internal/isIterateeCall", "lodash/lang/isObject", "lodash/lang/isRegExp"], function(baseToString, isIterateeCall, isObject, isRegExp) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

@@ -1,5 +1,4 @@
-define(['../internal/arrayFilter', '../internal/baseCallback', '../internal/baseFilter', '../lang/isArray'], function(arrayFilter, baseCallback, baseFilter, isArray) {
-
+define(["lodash/collection/filter"], ["lodash/internal/arrayFilter", "lodash/internal/baseCallback", "lodash/internal/baseFilter", "lodash/lang/isArray"], function(arrayFilter, baseCallback, baseFilter, isArray) {
   /**
    * Iterates over elements of `collection`, returning an array of all elements
    * `predicate` returns truthy for. The predicate is bound to `thisArg` and

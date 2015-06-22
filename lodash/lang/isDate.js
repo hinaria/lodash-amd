@@ -1,5 +1,4 @@
-define(['../internal/isObjectLike'], function(isObjectLike) {
-
+define(["lodash/lang/isDate"], ["lodash/internal/isObjectLike"], function(isObjectLike) {
   /** `Object#toString` result references. */
   var dateTag = '[object Date]';
 

@@ -1,5 +1,4 @@
-define(['../internal/createRound'], function(createRound) {
-
+define(["lodash/math/ceil"], ["lodash/internal/createRound"], function(createRound) {
   /**
    * Calculates `n` rounded up to `precision`.
    *

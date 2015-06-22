@@ -1,5 +1,4 @@
-define(['./isObject'], function(isObject) {
-
+define(["lodash/lang/isRegExp"], ["lodash/lang/isObject"], function(isObject) {
   /** `Object#toString` result references. */
   var regexpTag = '[object RegExp]';
 

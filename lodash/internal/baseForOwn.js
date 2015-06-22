@@ -1,5 +1,4 @@
-define(['./baseFor', '../object/keys'], function(baseFor, keys) {
-
+define(["lodash/internal/baseForOwn"], ["lodash/internal/baseFor", "lodash/object/keys"], function(baseFor, keys) {
   /**
    * The base implementation of `_.forOwn` without support for callback
    * shorthands and `this` binding.

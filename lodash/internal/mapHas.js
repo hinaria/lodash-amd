@@ -1,5 +1,4 @@
-define([], function() {
-
+define(["lodash/internal/mapHas"], [], function() {
   /** Used for native method references. */
   var objectProto = Object.prototype;
 

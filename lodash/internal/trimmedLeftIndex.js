@@ -1,5 +1,4 @@
-define(['./isSpace'], function(isSpace) {
-
+define(["lodash/internal/trimmedLeftIndex"], ["lodash/internal/isSpace"], function(isSpace) {
   /**
    * Used by `_.trim` and `_.trimLeft` to get the index of the first non-whitespace
    * character of `string`.

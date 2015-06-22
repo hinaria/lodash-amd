@@ -1,5 +1,4 @@
-define(['./LazyWrapper', './getData', './getFuncName', '../chain/lodash'], function(LazyWrapper, getData, getFuncName, lodash) {
-
+define(["lodash/internal/isLaziable"], ["lodash/internal/LazyWrapper", "lodash/internal/getData", "lodash/internal/getFuncName", "lodash/chain/lodash"], function(LazyWrapper, getData, getFuncName, lodash) {
   /**
    * Checks if `func` has a lazy counterpart.
    *

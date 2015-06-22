@@ -1,5 +1,4 @@
-define([], function() {
-
+define(["lodash/internal/arrayFilter"], [], function() {
   /**
    * A specialized version of `_.filter` for arrays without support for callback
    * shorthands and `this` binding.

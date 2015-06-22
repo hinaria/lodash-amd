@@ -1,5 +1,4 @@
-define(['../internal/baseToString'], function(baseToString) {
-
+define(["lodash/utility/uniqueId"], ["lodash/internal/baseToString"], function(baseToString) {
   /** Used to generate unique IDs. */
   var idCounter = 0;
 

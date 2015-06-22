@@ -1,5 +1,4 @@
-define(['../internal/baseToString'], function(baseToString) {
-
+define(["lodash/string/capitalize"], ["lodash/internal/baseToString"], function(baseToString) {
   /**
    * Capitalizes the first character of `string`.
    *

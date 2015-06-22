@@ -1,5 +1,4 @@
-define(['./baseGet', './toPath'], function(baseGet, toPath) {
-
+define(["lodash/internal/basePropertyDeep"], ["lodash/internal/baseGet", "lodash/internal/toPath"], function(baseGet, toPath) {
   /**
    * A specialized version of `baseProperty` which supports deep paths.
    *

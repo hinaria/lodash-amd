@@ -1,5 +1,4 @@
-define([], function() {
-
+define(["lodash/internal/baseLodash"], [], function() {
   /**
    * The function whose prototype all chaining wrappers inherit from.
    *

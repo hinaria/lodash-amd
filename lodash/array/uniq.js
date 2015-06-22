@@ -1,5 +1,4 @@
-define(['../internal/baseCallback', '../internal/baseUniq', '../internal/isIterateeCall', '../internal/sortedUniq'], function(baseCallback, baseUniq, isIterateeCall, sortedUniq) {
-
+define(["lodash/array/uniq"], ["lodash/internal/baseCallback", "lodash/internal/baseUniq", "lodash/internal/isIterateeCall", "lodash/internal/sortedUniq"], function(baseCallback, baseUniq, isIterateeCall, sortedUniq) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

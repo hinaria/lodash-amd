@@ -1,5 +1,4 @@
-define(['../internal/getNative', '../internal/isArrayLike', '../lang/isObject', '../internal/shimKeys'], function(getNative, isArrayLike, isObject, shimKeys) {
-
+define(["lodash/object/keys"], ["lodash/internal/getNative", "lodash/internal/isArrayLike", "lodash/lang/isObject", "lodash/internal/shimKeys"], function(getNative, isArrayLike, isObject, shimKeys) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

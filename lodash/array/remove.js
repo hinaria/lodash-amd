@@ -1,5 +1,4 @@
-define(['../internal/baseCallback', '../internal/basePullAt'], function(baseCallback, basePullAt) {
-
+define(["lodash/array/remove"], ["lodash/internal/baseCallback", "lodash/internal/basePullAt"], function(baseCallback, basePullAt) {
   /**
    * Removes all elements from `array` that `predicate` returns truthy for
    * and returns an array of the removed elements. The predicate is bound to

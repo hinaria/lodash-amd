@@ -1,5 +1,4 @@
-define(['../internal/baseAssign', '../internal/baseCreate', '../internal/isIterateeCall'], function(baseAssign, baseCreate, isIterateeCall) {
-
+define(["lodash/object/create"], ["lodash/internal/baseAssign", "lodash/internal/baseCreate", "lodash/internal/isIterateeCall"], function(baseAssign, baseCreate, isIterateeCall) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

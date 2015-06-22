@@ -1,5 +1,4 @@
-define(['../internal/baseDifference', '../internal/isArrayLike', '../function/restParam'], function(baseDifference, isArrayLike, restParam) {
-
+define(["lodash/array/without"], ["lodash/internal/baseDifference", "lodash/internal/isArrayLike", "lodash/function/restParam"], function(baseDifference, isArrayLike, restParam) {
   /**
    * Creates an array excluding all provided values using
    * [`SameValueZero`](https://people.mozilla.org/~jorendorff/es6-draft.html#sec-samevaluezero)

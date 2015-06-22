@@ -1,5 +1,4 @@
-define(['../internal/arraySum', '../internal/baseCallback', '../internal/baseSum', '../lang/isArray', '../internal/isIterateeCall', '../internal/toIterable'], function(arraySum, baseCallback, baseSum, isArray, isIterateeCall, toIterable) {
-
+define(["lodash/math/sum"], ["lodash/internal/arraySum", "lodash/internal/baseCallback", "lodash/internal/baseSum", "lodash/lang/isArray", "lodash/internal/isIterateeCall", "lodash/internal/toIterable"], function(arraySum, baseCallback, baseSum, isArray, isIterateeCall, toIterable) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

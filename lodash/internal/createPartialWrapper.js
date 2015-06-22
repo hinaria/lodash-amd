@@ -1,5 +1,4 @@
-define(['./createCtorWrapper', './root'], function(createCtorWrapper, root) {
-
+define(["lodash/internal/createPartialWrapper"], ["lodash/internal/createCtorWrapper", "lodash/internal/root"], function(createCtorWrapper, root) {
   /** Used to compose bitmasks for wrapper metadata. */
   var BIND_FLAG = 1;
 

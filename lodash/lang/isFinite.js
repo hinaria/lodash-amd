@@ -1,5 +1,4 @@
-define(['../internal/root'], function(root) {
-
+define(["lodash/lang/isFinite"], ["lodash/internal/root"], function(root) {
   /* Native method references for those with the same name as other `lodash` methods. */
   var nativeIsFinite = root.isFinite;
 

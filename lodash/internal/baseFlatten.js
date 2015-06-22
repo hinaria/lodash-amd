@@ -1,5 +1,4 @@
-define(['./arrayPush', '../lang/isArguments', '../lang/isArray', './isArrayLike', './isObjectLike'], function(arrayPush, isArguments, isArray, isArrayLike, isObjectLike) {
-
+define(["lodash/internal/baseFlatten"], ["lodash/internal/arrayPush", "lodash/lang/isArguments", "lodash/lang/isArray", "lodash/internal/isArrayLike", "lodash/internal/isObjectLike"], function(arrayPush, isArguments, isArray, isArrayLike, isObjectLike) {
   /**
    * The base implementation of `_.flatten` with added support for restricting
    * flattening and specifying the start index.

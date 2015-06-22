@@ -1,5 +1,4 @@
-define(['../internal/baseDelay', './restParam'], function(baseDelay, restParam) {
-
+define(["lodash/function/defer"], ["lodash/internal/baseDelay", "lodash/function/restParam"], function(baseDelay, restParam) {
   /**
    * Defers invoking the `func` until the current call stack has cleared. Any
    * additional arguments are provided to `func` when it is invoked.

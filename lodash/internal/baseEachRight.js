@@ -1,5 +1,4 @@
-define(['./baseForOwnRight', './createBaseEach'], function(baseForOwnRight, createBaseEach) {
-
+define(["lodash/internal/baseEachRight"], ["lodash/internal/baseForOwnRight", "lodash/internal/createBaseEach"], function(baseForOwnRight, createBaseEach) {
   /**
    * The base implementation of `_.forEachRight` without support for callback
    * shorthands and `this` binding.

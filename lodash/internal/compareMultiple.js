@@ -1,5 +1,4 @@
-define(['./baseCompareAscending'], function(baseCompareAscending) {
-
+define(["lodash/internal/compareMultiple"], ["lodash/internal/baseCompareAscending"], function(baseCompareAscending) {
   /**
    * Used by `_.sortByOrder` to compare multiple properties of a value to another
    * and stable sort them.

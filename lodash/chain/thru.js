@@ -1,5 +1,4 @@
-define([], function() {
-
+define(["lodash/chain/thru"], [], function() {
   /**
    * This method is like `_.tap` except that it returns the result of `interceptor`.
    *

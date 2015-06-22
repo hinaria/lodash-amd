@@ -1,5 +1,4 @@
-define(['./isStrictComparable', '../object/pairs'], function(isStrictComparable, pairs) {
-
+define(["lodash/internal/getMatchData"], ["lodash/internal/isStrictComparable", "lodash/object/pairs"], function(isStrictComparable, pairs) {
   /**
    * Gets the propery names, values, and compare flags of `object`.
    *

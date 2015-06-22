@@ -1,5 +1,4 @@
-define([], function() {
-
+define(["lodash/lang/isNull"], [], function() {
   /**
    * Checks if `value` is `null`.
    *

@@ -1,5 +1,4 @@
-define([], function() {
-
+define(["lodash/internal/isObjectLike"], [], function() {
   /**
    * Checks if `value` is object-like.
    *

@@ -1,5 +1,4 @@
-define(['./arrayCopy', './composeArgs', './composeArgsRight', './replaceHolders'], function(arrayCopy, composeArgs, composeArgsRight, replaceHolders) {
-
+define(["lodash/internal/mergeData"], ["lodash/internal/arrayCopy", "lodash/internal/composeArgs", "lodash/internal/composeArgsRight", "lodash/internal/replaceHolders"], function(arrayCopy, composeArgs, composeArgsRight, replaceHolders) {
   /** Used to compose bitmasks for wrapper metadata. */
   var BIND_FLAG = 1,
       CURRY_BOUND_FLAG = 4,

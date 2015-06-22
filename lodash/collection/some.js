@@ -1,5 +1,4 @@
-define(['../internal/arraySome', '../internal/baseCallback', '../internal/baseSome', '../lang/isArray', '../internal/isIterateeCall'], function(arraySome, baseCallback, baseSome, isArray, isIterateeCall) {
-
+define(["lodash/collection/some"], ["lodash/internal/arraySome", "lodash/internal/baseCallback", "lodash/internal/baseSome", "lodash/lang/isArray", "lodash/internal/isIterateeCall"], function(arraySome, baseCallback, baseSome, isArray, isIterateeCall) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

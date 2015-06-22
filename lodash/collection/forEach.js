@@ -1,5 +1,4 @@
-define(['../internal/arrayEach', '../internal/baseEach', '../internal/createForEach'], function(arrayEach, baseEach, createForEach) {
-
+define(["lodash/collection/forEach"], ["lodash/internal/arrayEach", "lodash/internal/baseEach", "lodash/internal/createForEach"], function(arrayEach, baseEach, createForEach) {
   /**
    * Iterates over elements of `collection` invoking `iteratee` for each element.
    * The `iteratee` is bound to `thisArg` and invoked with three arguments:

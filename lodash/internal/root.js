@@ -1,5 +1,4 @@
-define([], function() {
-
+define(["lodash/internal/root"], [], function() {
   /** Used to determine if values are of the language type `Object`. */
   var objectTypes = {
     'function': true,

@@ -1,5 +1,4 @@
-define([], function() {
-
+define(["lodash/internal/escapeStringChar"], [], function() {
   /** Used to escape characters for inclusion in compiled string literals. */
   var stringEscapes = {
     '\\': '\\',

@@ -1,5 +1,4 @@
-define(['../internal/createFindIndex'], function(createFindIndex) {
-
+define(["lodash/array/findIndex"], ["lodash/internal/createFindIndex"], function(createFindIndex) {
   /**
    * This method is like `_.find` except that it returns the index of the first
    * element `predicate` returns truthy for instead of the element itself.

@@ -1,5 +1,4 @@
-define(['./baseCompareAscending'], function(baseCompareAscending) {
-
+define(["lodash/internal/compareAscending"], ["lodash/internal/baseCompareAscending"], function(baseCompareAscending) {
   /**
    * Used by `_.sortBy` to compare transformed elements of a collection and stable
    * sort them in ascending order.

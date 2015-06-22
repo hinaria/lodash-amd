@@ -1,5 +1,4 @@
-define(['./baseCallback', './baseReduce', '../lang/isArray'], function(baseCallback, baseReduce, isArray) {
-
+define(["lodash/internal/createReduce"], ["lodash/internal/baseCallback", "lodash/internal/baseReduce", "lodash/lang/isArray"], function(baseCallback, baseReduce, isArray) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

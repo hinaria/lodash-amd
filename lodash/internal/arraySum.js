@@ -1,5 +1,4 @@
-define([], function() {
-
+define(["lodash/internal/arraySum"], [], function() {
   /**
    * A specialized version of `_.sum` for arrays without support for iteratees.
    *

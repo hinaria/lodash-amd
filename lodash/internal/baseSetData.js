@@ -1,5 +1,4 @@
-define(['../utility/identity', './metaMap'], function(identity, metaMap) {
-
+define(["lodash/internal/baseSetData"], ["lodash/utility/identity", "lodash/internal/metaMap"], function(identity, metaMap) {
   /**
    * The base implementation of `setData` without support for hot loop detection.
    *

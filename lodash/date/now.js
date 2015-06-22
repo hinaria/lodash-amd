@@ -1,5 +1,4 @@
-define(['../internal/getNative'], function(getNative) {
-
+define(["lodash/date/now"], ["lodash/internal/getNative"], function(getNative) {
   /* Native method references for those with the same name as other `lodash` methods. */
   var nativeNow = getNative(Date, 'now');
 

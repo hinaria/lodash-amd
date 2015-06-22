@@ -1,5 +1,4 @@
-define(['../internal/baseGet', '../internal/baseSlice', '../lang/isFunction', '../internal/isKey', '../array/last', '../internal/toPath'], function(baseGet, baseSlice, isFunction, isKey, last, toPath) {
-
+define(["lodash/object/result"], ["lodash/internal/baseGet", "lodash/internal/baseSlice", "lodash/lang/isFunction", "lodash/internal/isKey", "lodash/array/last", "lodash/internal/toPath"], function(baseGet, baseSlice, isFunction, isKey, last, toPath) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

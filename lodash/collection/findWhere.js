@@ -1,5 +1,4 @@
-define(['../internal/baseMatches', './find'], function(baseMatches, find) {
-
+define(["lodash/collection/findWhere"], ["lodash/internal/baseMatches", "lodash/collection/find"], function(baseMatches, find) {
   /**
    * Performs a deep comparison between each element in `collection` and the
    * source object, returning the first element that has equivalent property

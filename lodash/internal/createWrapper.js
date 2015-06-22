@@ -1,5 +1,4 @@
-define(['./baseSetData', './createBindWrapper', './createHybridWrapper', './createPartialWrapper', './getData', './mergeData', './setData'], function(baseSetData, createBindWrapper, createHybridWrapper, createPartialWrapper, getData, mergeData, setData) {
-
+define(["lodash/internal/createWrapper"], ["lodash/internal/baseSetData", "lodash/internal/createBindWrapper", "lodash/internal/createHybridWrapper", "lodash/internal/createPartialWrapper", "lodash/internal/getData", "lodash/internal/mergeData", "lodash/internal/setData"], function(baseSetData, createBindWrapper, createHybridWrapper, createPartialWrapper, getData, mergeData, setData) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

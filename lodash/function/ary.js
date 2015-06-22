@@ -1,5 +1,4 @@
-define(['../internal/createWrapper', '../internal/isIterateeCall'], function(createWrapper, isIterateeCall) {
-
+define(["lodash/function/ary"], ["lodash/internal/createWrapper", "lodash/internal/isIterateeCall"], function(createWrapper, isIterateeCall) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

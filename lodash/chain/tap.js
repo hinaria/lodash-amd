@@ -1,5 +1,4 @@
-define([], function() {
-
+define(["lodash/chain/tap"], [], function() {
   /**
    * This method invokes `interceptor` and returns `value`. The interceptor is
    * bound to `thisArg` and invoked with one argument; (value). The purpose of

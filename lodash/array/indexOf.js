@@ -1,5 +1,4 @@
-define(['../internal/baseIndexOf', '../internal/binaryIndex'], function(baseIndexOf, binaryIndex) {
-
+define(["lodash/array/indexOf"], ["lodash/internal/baseIndexOf", "lodash/internal/binaryIndex"], function(baseIndexOf, binaryIndex) {
   /* Native method references for those with the same name as other `lodash` methods. */
   var nativeMax = Math.max;
 

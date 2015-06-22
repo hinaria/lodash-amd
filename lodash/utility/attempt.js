@@ -1,5 +1,4 @@
-define(['../lang/isError', '../function/restParam'], function(isError, restParam) {
-
+define(["lodash/utility/attempt"], ["lodash/lang/isError", "lodash/function/restParam"], function(isError, restParam) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

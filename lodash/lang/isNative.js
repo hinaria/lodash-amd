@@ -1,5 +1,4 @@
-define(['../string/escapeRegExp', './isFunction', '../internal/isObjectLike'], function(escapeRegExp, isFunction, isObjectLike) {
-
+define(["lodash/lang/isNative"], ["lodash/string/escapeRegExp", "lodash/lang/isFunction", "lodash/internal/isObjectLike"], function(escapeRegExp, isFunction, isObjectLike) {
   /** Used to detect host constructors (Safari > 5). */
   var reIsHostCtor = /^\[object .+?Constructor\]$/;
 

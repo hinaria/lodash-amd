@@ -1,5 +1,4 @@
-define(['../internal/baseForRight', '../internal/createForIn'], function(baseForRight, createForIn) {
-
+define(["lodash/object/forInRight"], ["lodash/internal/baseForRight", "lodash/internal/createForIn"], function(baseForRight, createForIn) {
   /**
    * This method is like `_.forIn` except that it iterates over properties of
    * `object` in the opposite order.

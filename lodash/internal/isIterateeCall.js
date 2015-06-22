@@ -1,5 +1,4 @@
-define(['./isArrayLike', './isIndex', '../lang/isObject'], function(isArrayLike, isIndex, isObject) {
-
+define(["lodash/internal/isIterateeCall"], ["lodash/internal/isArrayLike", "lodash/internal/isIndex", "lodash/lang/isObject"], function(isArrayLike, isIndex, isObject) {
   /**
    * Checks if the provided arguments are from an iteratee call.
    *

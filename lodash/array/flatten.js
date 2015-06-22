@@ -1,5 +1,4 @@
-define(['../internal/baseFlatten', '../internal/isIterateeCall'], function(baseFlatten, isIterateeCall) {
-
+define(["lodash/array/flatten"], ["lodash/internal/baseFlatten", "lodash/internal/isIterateeCall"], function(baseFlatten, isIterateeCall) {
   /**
    * Flattens a nested array. If `isDeep` is `true` the array is recursively
    * flattened, otherwise it is only flattened a single level.

@@ -1,5 +1,4 @@
-define(['./SetCache', './getNative', './root'], function(SetCache, getNative, root) {
-
+define(["lodash/internal/createCache"], ["lodash/internal/SetCache", "lodash/internal/getNative", "lodash/internal/root"], function(SetCache, getNative, root) {
   /** Native method references. */
   var Set = getNative(root, 'Set');
 

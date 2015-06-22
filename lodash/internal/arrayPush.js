@@ -1,5 +1,4 @@
-define([], function() {
-
+define(["lodash/internal/arrayPush"], [], function() {
   /**
    * Appends the elements of `values` to `array`.
    *

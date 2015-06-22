@@ -1,5 +1,4 @@
-define(['../internal/arrayEach', '../internal/baseCallback', '../internal/baseCreate', '../internal/baseForOwn', '../lang/isArray', '../lang/isFunction', '../lang/isObject', '../lang/isTypedArray'], function(arrayEach, baseCallback, baseCreate, baseForOwn, isArray, isFunction, isObject, isTypedArray) {
-
+define(["lodash/object/transform"], ["lodash/internal/arrayEach", "lodash/internal/baseCallback", "lodash/internal/baseCreate", "lodash/internal/baseForOwn", "lodash/lang/isArray", "lodash/lang/isFunction", "lodash/lang/isObject", "lodash/lang/isTypedArray"], function(arrayEach, baseCallback, baseCreate, baseForOwn, isArray, isFunction, isObject, isTypedArray) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

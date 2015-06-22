@@ -1,3 +1,2 @@
-define(["./callback"], function(callback) {
-  return callback;
+define(["lodash/utility/iteratee"], ["lodash/utility/callback"], function(callback) {  return callback;
 });

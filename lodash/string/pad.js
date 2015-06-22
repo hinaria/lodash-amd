@@ -1,5 +1,4 @@
-define(['../internal/baseToString', '../internal/createPadding', '../internal/root'], function(baseToString, createPadding, root) {
-
+define(["lodash/string/pad"], ["lodash/internal/baseToString", "lodash/internal/createPadding", "lodash/internal/root"], function(baseToString, createPadding, root) {
   /* Native method references for those with the same name as other `lodash` methods. */
   var nativeCeil = Math.ceil,
       nativeFloor = Math.floor,

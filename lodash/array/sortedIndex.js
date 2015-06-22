@@ -1,5 +1,4 @@
-define(['../internal/createSortedIndex'], function(createSortedIndex) {
-
+define(["lodash/array/sortedIndex"], ["lodash/internal/createSortedIndex"], function(createSortedIndex) {
   /**
    * Uses a binary search to determine the lowest index at which `value` should
    * be inserted into `array` in order to maintain its sort order. If an iteratee

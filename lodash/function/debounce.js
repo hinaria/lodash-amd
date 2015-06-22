@@ -1,5 +1,4 @@
-define(['../lang/isObject', '../date/now'], function(isObject, now) {
-
+define(["lodash/function/debounce"], ["lodash/lang/isObject", "lodash/date/now"], function(isObject, now) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

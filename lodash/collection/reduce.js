@@ -1,5 +1,4 @@
-define(['../internal/arrayReduce', '../internal/baseEach', '../internal/createReduce'], function(arrayReduce, baseEach, createReduce) {
-
+define(["lodash/collection/reduce"], ["lodash/internal/arrayReduce", "lodash/internal/baseEach", "lodash/internal/createReduce"], function(arrayReduce, baseEach, createReduce) {
   /**
    * Reduces `collection` to a value which is the accumulated result of running
    * each element in `collection` through `iteratee`, where each successive

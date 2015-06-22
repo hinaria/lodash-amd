@@ -1,5 +1,4 @@
-define(['../internal/baseGet', '../internal/toPath'], function(baseGet, toPath) {
-
+define(["lodash/utility/propertyOf"], ["lodash/internal/baseGet", "lodash/internal/toPath"], function(baseGet, toPath) {
   /**
    * The opposite of `_.property`; this method creates a function that returns
    * the property value at a given path on `object`.

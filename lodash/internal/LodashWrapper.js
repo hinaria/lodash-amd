@@ -1,5 +1,4 @@
-define(['./baseCreate', './baseLodash'], function(baseCreate, baseLodash) {
-
+define(["lodash/internal/LodashWrapper"], ["lodash/internal/baseCreate", "lodash/internal/baseLodash"], function(baseCreate, baseLodash) {
   /**
    * The base constructor for creating `lodash` wrapper objects.
    *

@@ -1,5 +1,4 @@
-define(['../internal/getNative', '../internal/isLength', '../internal/isObjectLike'], function(getNative, isLength, isObjectLike) {
-
+define(["lodash/lang/isArray"], ["lodash/internal/getNative", "lodash/internal/isLength", "lodash/internal/isObjectLike"], function(getNative, isLength, isObjectLike) {
   /** `Object#toString` result references. */
   var arrayTag = '[object Array]';
 

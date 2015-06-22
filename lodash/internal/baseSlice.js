@@ -1,5 +1,4 @@
-define([], function() {
-
+define(["lodash/internal/baseSlice"], [], function() {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

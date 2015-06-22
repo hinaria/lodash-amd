@@ -1,5 +1,4 @@
-define(['../function/restParam', './unzipWith'], function(restParam, unzipWith) {
-
+define(["lodash/array/zipWith"], ["lodash/function/restParam", "lodash/array/unzipWith"], function(restParam, unzipWith) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

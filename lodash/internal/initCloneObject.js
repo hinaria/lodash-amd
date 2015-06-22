@@ -1,5 +1,4 @@
-define([], function() {
-
+define(["lodash/internal/initCloneObject"], [], function() {
   /**
    * Initializes an object clone.
    *

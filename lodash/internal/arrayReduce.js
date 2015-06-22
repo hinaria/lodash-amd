@@ -1,5 +1,4 @@
-define([], function() {
-
+define(["lodash/internal/arrayReduce"], [], function() {
   /**
    * A specialized version of `_.reduce` for arrays without support for callback
    * shorthands and `this` binding.

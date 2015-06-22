@@ -1,5 +1,4 @@
-define(['./createBaseFor'], function(createBaseFor) {
-
+define(["lodash/internal/baseForRight"], ["lodash/internal/createBaseFor"], function(createBaseFor) {
   /**
    * This function is like `baseFor` except that it iterates over properties
    * in the opposite order.

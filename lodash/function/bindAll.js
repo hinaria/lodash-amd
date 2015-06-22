@@ -1,5 +1,4 @@
-define(['../internal/baseFlatten', '../internal/createWrapper', '../object/functions', './restParam'], function(baseFlatten, createWrapper, functions, restParam) {
-
+define(["lodash/function/bindAll"], ["lodash/internal/baseFlatten", "lodash/internal/createWrapper", "lodash/object/functions", "lodash/function/restParam"], function(baseFlatten, createWrapper, functions, restParam) {
   /** Used to compose bitmasks for wrapper metadata. */
   var BIND_FLAG = 1;
 

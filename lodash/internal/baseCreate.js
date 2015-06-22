@@ -1,5 +1,4 @@
-define(['../lang/isObject'], function(isObject) {
-
+define(["lodash/internal/baseCreate"], ["lodash/lang/isObject"], function(isObject) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

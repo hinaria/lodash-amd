@@ -1,5 +1,4 @@
-define(['../internal/createCompounder'], function(createCompounder) {
-
+define(["lodash/string/snakeCase"], ["lodash/internal/createCompounder"], function(createCompounder) {
   /**
    * Converts `string` to [snake case](https://en.wikipedia.org/wiki/Snake_case).
    *

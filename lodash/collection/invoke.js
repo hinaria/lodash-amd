@@ -1,5 +1,4 @@
-define(['../internal/baseEach', '../internal/invokePath', '../internal/isArrayLike', '../internal/isKey', '../function/restParam'], function(baseEach, invokePath, isArrayLike, isKey, restParam) {
-
+define(["lodash/collection/invoke"], ["lodash/internal/baseEach", "lodash/internal/invokePath", "lodash/internal/isArrayLike", "lodash/internal/isKey", "lodash/function/restParam"], function(baseEach, invokePath, isArrayLike, isKey, restParam) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

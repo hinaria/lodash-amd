@@ -1,5 +1,4 @@
-define(['../internal/arrayReduceRight', '../internal/baseEachRight', '../internal/createReduce'], function(arrayReduceRight, baseEachRight, createReduce) {
-
+define(["lodash/collection/reduceRight"], ["lodash/internal/arrayReduceRight", "lodash/internal/baseEachRight", "lodash/internal/createReduce"], function(arrayReduceRight, baseEachRight, createReduce) {
   /**
    * This method is like `_.reduce` except that it iterates over elements of
    * `collection` from right to left.

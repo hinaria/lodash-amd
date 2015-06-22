@@ -1,5 +1,4 @@
-define(['../object/keys'], function(keys) {
-
+define(["lodash/internal/equalObjects"], ["lodash/object/keys"], function(keys) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

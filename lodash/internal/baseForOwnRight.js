@@ -1,5 +1,4 @@
-define(['./baseForRight', '../object/keys'], function(baseForRight, keys) {
-
+define(["lodash/internal/baseForOwnRight"], ["lodash/internal/baseForRight", "lodash/object/keys"], function(baseForRight, keys) {
   /**
    * The base implementation of `_.forOwnRight` without support for callback
    * shorthands and `this` binding.

@@ -1,5 +1,4 @@
-define(['../internal/baseForIn', './isArguments', '../internal/isObjectLike'], function(baseForIn, isArguments, isObjectLike) {
-
+define(["lodash/lang/isPlainObject"], ["lodash/internal/baseForIn", "lodash/lang/isArguments", "lodash/internal/isObjectLike"], function(baseForIn, isArguments, isObjectLike) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

@@ -1,3 +1,2 @@
-define(["./wrapperValue"], function(wrapperValue) {
-  return wrapperValue;
+define(["lodash/chain/value"], ["lodash/chain/wrapperValue"], function(wrapperValue) {  return wrapperValue;
 });

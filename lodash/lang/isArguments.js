@@ -1,5 +1,4 @@
-define(['../internal/isArrayLike', '../internal/isObjectLike'], function(isArrayLike, isObjectLike) {
-
+define(["lodash/lang/isArguments"], ["lodash/internal/isArrayLike", "lodash/internal/isObjectLike"], function(isArrayLike, isObjectLike) {
   /** Used for native method references. */
   var objectProto = Object.prototype;
 

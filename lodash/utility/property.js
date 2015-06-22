@@ -1,5 +1,4 @@
-define(['../internal/baseProperty', '../internal/basePropertyDeep', '../internal/isKey'], function(baseProperty, basePropertyDeep, isKey) {
-
+define(["lodash/utility/property"], ["lodash/internal/baseProperty", "lodash/internal/basePropertyDeep", "lodash/internal/isKey"], function(baseProperty, basePropertyDeep, isKey) {
   /**
    * Creates a function that returns the property value at `path` on a
    * given object.

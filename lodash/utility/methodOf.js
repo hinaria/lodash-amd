@@ -1,5 +1,4 @@
-define(['../internal/invokePath', '../function/restParam'], function(invokePath, restParam) {
-
+define(["lodash/utility/methodOf"], ["lodash/internal/invokePath", "lodash/function/restParam"], function(invokePath, restParam) {
   /**
    * The opposite of `_.method`; this method creates a function that invokes
    * the method at a given path on `object`. Any additional arguments are

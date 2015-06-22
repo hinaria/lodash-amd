@@ -1,5 +1,4 @@
-define(['./baseEach', './isArrayLike'], function(baseEach, isArrayLike) {
-
+define(["lodash/internal/baseMap"], ["lodash/internal/baseEach", "lodash/internal/isArrayLike"], function(baseEach, isArrayLike) {
   /**
    * The base implementation of `_.map` without support for callback shorthands
    * and `this` binding.

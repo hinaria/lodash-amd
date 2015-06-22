@@ -1,5 +1,4 @@
-define(['./dropRight'], function(dropRight) {
-
+define(["lodash/array/initial"], ["lodash/array/dropRight"], function(dropRight) {
   /**
    * Gets all but the last element of `array`.
    *
