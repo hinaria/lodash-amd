@@ -1,4 +1,4 @@
-define(["lodash/internal/isIndex"], [], function() {
+define("lodash/internal/isIndex", [], function() {
   /** Used to detect unsigned integer values. */
   var reIsUint = /^\d+$/;
 

@@ -1,4 +1,4 @@
-define(["lodash/array/takeRightWhile"], ["lodash/internal/baseCallback", "lodash/internal/baseWhile"], function(baseCallback, baseWhile) {
+define("lodash/array/takeRightWhile", ["lodash/internal/baseCallback", "lodash/internal/baseWhile"], function(baseCallback, baseWhile) {
   /**
    * Creates a slice of `array` with elements taken from the end. Elements are
    * taken until `predicate` returns falsey. The predicate is bound to `thisArg`

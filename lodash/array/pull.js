@@ -1,4 +1,4 @@
-define(["lodash/array/pull"], ["lodash/internal/baseIndexOf"], function(baseIndexOf) {
+define("lodash/array/pull", ["lodash/internal/baseIndexOf"], function(baseIndexOf) {
   /** Used for native method references. */
   var arrayProto = Array.prototype;
 

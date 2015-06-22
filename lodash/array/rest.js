@@ -1,4 +1,4 @@
-define(["lodash/array/rest"], ["lodash/array/drop"], function(drop) {
+define("lodash/array/rest", ["lodash/array/drop"], function(drop) {
   /**
    * Gets all but the first element of `array`.
    *

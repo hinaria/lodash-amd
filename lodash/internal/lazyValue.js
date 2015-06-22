@@ -1,4 +1,4 @@
-define(["lodash/internal/lazyValue"], ["lodash/internal/baseWrapperValue", "lodash/internal/getView", "lodash/lang/isArray"], function(baseWrapperValue, getView, isArray) {
+define("lodash/internal/lazyValue", ["lodash/internal/baseWrapperValue", "lodash/internal/getView", "lodash/lang/isArray"], function(baseWrapperValue, getView, isArray) {
   /** Used as the size to enable large array optimizations. */
   var LARGE_ARRAY_SIZE = 200;
 

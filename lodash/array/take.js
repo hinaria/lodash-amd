@@ -1,4 +1,4 @@
-define(["lodash/array/take"], ["lodash/internal/baseSlice", "lodash/internal/isIterateeCall"], function(baseSlice, isIterateeCall) {
+define("lodash/array/take", ["lodash/internal/baseSlice", "lodash/internal/isIterateeCall"], function(baseSlice, isIterateeCall) {
   /**
    * Creates a slice of `array` with `n` elements taken from the beginning.
    *

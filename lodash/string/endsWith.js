@@ -1,4 +1,4 @@
-define(["lodash/string/endsWith"], ["lodash/internal/baseToString"], function(baseToString) {
+define("lodash/string/endsWith", ["lodash/internal/baseToString"], function(baseToString) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

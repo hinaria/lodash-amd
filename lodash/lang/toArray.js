@@ -1,4 +1,4 @@
-define(["lodash/lang/toArray"], ["lodash/internal/arrayCopy", "lodash/internal/getLength", "lodash/internal/isLength", "lodash/object/values"], function(arrayCopy, getLength, isLength, values) {
+define("lodash/lang/toArray", ["lodash/internal/arrayCopy", "lodash/internal/getLength", "lodash/internal/isLength", "lodash/object/values"], function(arrayCopy, getLength, isLength, values) {
   /**
    * Converts `value` to an array.
    *

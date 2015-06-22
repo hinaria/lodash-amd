@@ -1,4 +1,4 @@
-define(["lodash/internal/arrayMap"], [], function() {
+define("lodash/internal/arrayMap", [], function() {
   /**
    * A specialized version of `_.map` for arrays without support for callback
    * shorthands and `this` binding.

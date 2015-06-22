@@ -1,4 +1,4 @@
-define(["lodash/chain/lodash"], ["lodash/internal/LazyWrapper", "lodash/internal/LodashWrapper", "lodash/internal/baseLodash", "lodash/lang/isArray", "lodash/internal/isObjectLike", "lodash/internal/wrapperClone"], function(LazyWrapper, LodashWrapper, baseLodash, isArray, isObjectLike, wrapperClone) {
+define("lodash/chain/lodash", ["lodash/internal/LazyWrapper", "lodash/internal/LodashWrapper", "lodash/internal/baseLodash", "lodash/lang/isArray", "lodash/internal/isObjectLike", "lodash/internal/wrapperClone"], function(LazyWrapper, LodashWrapper, baseLodash, isArray, isObjectLike, wrapperClone) {
   /** Used for native method references. */
   var objectProto = Object.prototype;
 

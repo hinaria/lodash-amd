@@ -1,4 +1,4 @@
-define(["lodash/internal/baseForIn"], ["lodash/internal/baseFor", "lodash/object/keysIn"], function(baseFor, keysIn) {
+define("lodash/internal/baseForIn", ["lodash/internal/baseFor", "lodash/object/keysIn"], function(baseFor, keysIn) {
   /**
    * The base implementation of `_.forIn` without support for callback
    * shorthands and `this` binding.

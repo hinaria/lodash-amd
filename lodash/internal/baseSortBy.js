@@ -1,4 +1,4 @@
-define(["lodash/internal/baseSortBy"], [], function() {
+define("lodash/internal/baseSortBy", [], function() {
   /**
    * The base implementation of `_.sortBy` which uses `comparer` to define
    * the sort order of `array` and replaces criteria objects with their

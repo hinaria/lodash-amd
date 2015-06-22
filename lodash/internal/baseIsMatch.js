@@ -1,4 +1,4 @@
-define(["lodash/internal/baseIsMatch"], ["lodash/internal/baseIsEqual", "lodash/internal/toObject"], function(baseIsEqual, toObject) {
+define("lodash/internal/baseIsMatch", ["lodash/internal/baseIsEqual", "lodash/internal/toObject"], function(baseIsEqual, toObject) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

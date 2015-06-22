@@ -1,4 +1,4 @@
-define(["lodash/internal/unescapeHtmlChar"], [], function() {
+define("lodash/internal/unescapeHtmlChar", [], function() {
   /** Used to map HTML entities to characters. */
   var htmlUnescapes = {
     '&amp;': '&',

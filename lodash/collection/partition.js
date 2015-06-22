@@ -1,4 +1,4 @@
-define(["lodash/collection/partition"], ["lodash/internal/createAggregator"], function(createAggregator) {
+define("lodash/collection/partition", ["lodash/internal/createAggregator"], function(createAggregator) {
   /**
    * Creates an array of elements split into two groups, the first of which
    * contains elements `predicate` returns truthy for, while the second of which

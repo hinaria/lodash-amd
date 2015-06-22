@@ -1,4 +1,4 @@
-define(["lodash/internal/MapCache"], ["lodash/internal/mapDelete", "lodash/internal/mapGet", "lodash/internal/mapHas", "lodash/internal/mapSet"], function(mapDelete, mapGet, mapHas, mapSet) {
+define("lodash/internal/MapCache", ["lodash/internal/mapDelete", "lodash/internal/mapGet", "lodash/internal/mapHas", "lodash/internal/mapSet"], function(mapDelete, mapGet, mapHas, mapSet) {
   /**
    * Creates a cache object to store key/value pairs.
    *

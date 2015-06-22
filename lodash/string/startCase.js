@@ -1,4 +1,4 @@
-define(["lodash/string/startCase"], ["lodash/internal/createCompounder"], function(createCompounder) {
+define("lodash/string/startCase", ["lodash/internal/createCompounder"], function(createCompounder) {
   /**
    * Converts `string` to [start case](https://en.wikipedia.org/wiki/Letter_case#Stylistic_or_specialised_usage).
    *

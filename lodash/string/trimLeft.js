@@ -1,4 +1,4 @@
-define(["lodash/string/trimLeft"], ["lodash/internal/baseToString", "lodash/internal/charsLeftIndex", "lodash/internal/isIterateeCall", "lodash/internal/trimmedLeftIndex"], function(baseToString, charsLeftIndex, isIterateeCall, trimmedLeftIndex) {
+define("lodash/string/trimLeft", ["lodash/internal/baseToString", "lodash/internal/charsLeftIndex", "lodash/internal/isIterateeCall", "lodash/internal/trimmedLeftIndex"], function(baseToString, charsLeftIndex, isIterateeCall, trimmedLeftIndex) {
   /**
    * Removes leading whitespace or specified characters from `string`.
    *

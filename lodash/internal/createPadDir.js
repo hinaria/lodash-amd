@@ -1,4 +1,4 @@
-define(["lodash/internal/createPadDir"], ["lodash/internal/baseToString", "lodash/internal/createPadding"], function(baseToString, createPadding) {
+define("lodash/internal/createPadDir", ["lodash/internal/baseToString", "lodash/internal/createPadding"], function(baseToString, createPadding) {
   /**
    * Creates a function for `_.padLeft` or `_.padRight`.
    *

@@ -1,4 +1,4 @@
-define(["lodash/lang/isNaN"], ["lodash/lang/isNumber"], function(isNumber) {
+define("lodash/lang/isNaN", ["lodash/lang/isNumber"], function(isNumber) {
   /**
    * Checks if `value` is `NaN`.
    *

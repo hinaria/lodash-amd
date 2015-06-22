@@ -1,4 +1,4 @@
-define(["lodash/internal/toObject"], ["lodash/lang/isObject"], function(isObject) {
+define("lodash/internal/toObject", ["lodash/lang/isObject"], function(isObject) {
   /**
    * Converts `value` to an object if it's not one.
    *

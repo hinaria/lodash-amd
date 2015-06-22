@@ -1,4 +1,4 @@
-define(["lodash/internal/reorder"], ["lodash/internal/arrayCopy", "lodash/internal/isIndex"], function(arrayCopy, isIndex) {
+define("lodash/internal/reorder", ["lodash/internal/arrayCopy", "lodash/internal/isIndex"], function(arrayCopy, isIndex) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

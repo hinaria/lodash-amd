@@ -1,4 +1,4 @@
-define(["lodash/internal/arrayCopy"], [], function() {
+define("lodash/internal/arrayCopy", [], function() {
   /**
    * Copies the values of `source` to `array`.
    *

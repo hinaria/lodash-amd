@@ -1,4 +1,4 @@
-define(["lodash/internal/getData"], ["lodash/internal/metaMap", "lodash/utility/noop"], function(metaMap, noop) {
+define("lodash/internal/getData", ["lodash/internal/metaMap", "lodash/utility/noop"], function(metaMap, noop) {
   /**
    * Gets metadata for `func`.
    *

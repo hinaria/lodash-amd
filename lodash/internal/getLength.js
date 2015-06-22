@@ -1,4 +1,4 @@
-define(["lodash/internal/getLength"], ["lodash/internal/baseProperty"], function(baseProperty) {
+define("lodash/internal/getLength", ["lodash/internal/baseProperty"], function(baseProperty) {
   /**
    * Gets the "length" property value of `object`.
    *

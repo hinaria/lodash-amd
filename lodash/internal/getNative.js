@@ -1,4 +1,4 @@
-define(["lodash/internal/getNative"], ["lodash/lang/isNative"], function(isNative) {
+define("lodash/internal/getNative", ["lodash/lang/isNative"], function(isNative) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

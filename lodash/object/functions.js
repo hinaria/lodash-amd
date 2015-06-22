@@ -1,4 +1,4 @@
-define(["lodash/object/functions"], ["lodash/internal/baseFunctions", "lodash/object/keysIn"], function(baseFunctions, keysIn) {
+define("lodash/object/functions", ["lodash/internal/baseFunctions", "lodash/object/keysIn"], function(baseFunctions, keysIn) {
   /**
    * Creates an array of function property names from all enumerable properties,
    * own and inherited, of `object`.

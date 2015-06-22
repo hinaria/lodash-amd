@@ -1,4 +1,4 @@
-define(["lodash/math/min"], ["lodash/internal/createExtremum", "lodash/lang/lt"], function(createExtremum, lt) {
+define("lodash/math/min", ["lodash/internal/createExtremum", "lodash/lang/lt"], function(createExtremum, lt) {
   /** Used as references for `-Infinity` and `Infinity`. */
   var POSITIVE_INFINITY = Number.POSITIVE_INFINITY;
 

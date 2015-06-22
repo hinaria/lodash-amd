@@ -1,4 +1,4 @@
-define(["lodash/function/flowRight"], ["lodash/internal/createFlow"], function(createFlow) {
+define("lodash/function/flowRight", ["lodash/internal/createFlow"], function(createFlow) {
   /**
    * This method is like `_.flow` except that it creates a function that
    * invokes the provided functions from right to left.

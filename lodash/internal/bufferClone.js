@@ -1,4 +1,4 @@
-define(["lodash/internal/bufferClone"], ["lodash/internal/root"], function(root) {
+define("lodash/internal/bufferClone", ["lodash/internal/root"], function(root) {
   /** Native method references. */
   var ArrayBuffer = root.ArrayBuffer,
       Uint8Array = root.Uint8Array;

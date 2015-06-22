@@ -1,4 +1,4 @@
-define(["lodash/lang/clone"], ["lodash/internal/baseClone", "lodash/internal/bindCallback", "lodash/internal/isIterateeCall"], function(baseClone, bindCallback, isIterateeCall) {
+define("lodash/lang/clone", ["lodash/internal/baseClone", "lodash/internal/bindCallback", "lodash/internal/isIterateeCall"], function(baseClone, bindCallback, isIterateeCall) {
   /**
    * Creates a clone of `value`. If `isDeep` is `true` nested objects are cloned,
    * otherwise they are assigned by reference. If `customizer` is provided it is

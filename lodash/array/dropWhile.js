@@ -1,4 +1,4 @@
-define(["lodash/array/dropWhile"], ["lodash/internal/baseCallback", "lodash/internal/baseWhile"], function(baseCallback, baseWhile) {
+define("lodash/array/dropWhile", ["lodash/internal/baseCallback", "lodash/internal/baseWhile"], function(baseCallback, baseWhile) {
   /**
    * Creates a slice of `array` excluding elements dropped from the beginning.
    * Elements are dropped until `predicate` returns falsey. The predicate is

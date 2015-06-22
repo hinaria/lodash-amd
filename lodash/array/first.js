@@ -1,4 +1,4 @@
-define(["lodash/array/first"], [], function() {
+define("lodash/array/first", [], function() {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

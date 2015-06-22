@@ -1,4 +1,4 @@
-define(["lodash/collection/at"], ["lodash/internal/baseAt", "lodash/internal/baseFlatten", "lodash/function/restParam"], function(baseAt, baseFlatten, restParam) {
+define("lodash/collection/at", ["lodash/internal/baseAt", "lodash/internal/baseFlatten", "lodash/function/restParam"], function(baseAt, baseFlatten, restParam) {
   /**
    * Creates an array of elements corresponding to the given keys, or indexes,
    * of `collection`. Keys may be specified as individual arguments or as arrays

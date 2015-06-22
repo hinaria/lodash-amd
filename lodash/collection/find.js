@@ -1,4 +1,4 @@
-define(["lodash/collection/find"], ["lodash/internal/baseEach", "lodash/internal/createFind"], function(baseEach, createFind) {
+define("lodash/collection/find", ["lodash/internal/baseEach", "lodash/internal/createFind"], function(baseEach, createFind) {
   /**
    * Iterates over elements of `collection`, returning the first element
    * `predicate` returns truthy for. The predicate is bound to `thisArg` and

@@ -1,4 +1,4 @@
-define(["lodash/internal/createCompounder"], ["lodash/string/deburr", "lodash/string/words"], function(deburr, words) {
+define("lodash/internal/createCompounder", ["lodash/string/deburr", "lodash/string/words"], function(deburr, words) {
   /**
    * Creates a function that produces compound words out of the words in a
    * given string.

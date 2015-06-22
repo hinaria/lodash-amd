@@ -1,4 +1,4 @@
-define(["lodash/string/escapeRegExp"], ["lodash/internal/baseToString"], function(baseToString) {
+define("lodash/string/escapeRegExp", ["lodash/internal/baseToString"], function(baseToString) {
   /**
    * Used to match `RegExp` [special characters](http://www.regular-expressions.info/characters.html#special).
    * In addition to special characters the forward slash is escaped to allow for

@@ -1,4 +1,4 @@
-define(["lodash/utility/matchesProperty"], ["lodash/internal/baseClone", "lodash/internal/baseMatchesProperty"], function(baseClone, baseMatchesProperty) {
+define("lodash/utility/matchesProperty", ["lodash/internal/baseClone", "lodash/internal/baseMatchesProperty"], function(baseClone, baseMatchesProperty) {
   /**
    * Creates a function that compares the property value of `path` on a given
    * object to `value`.

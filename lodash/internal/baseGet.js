@@ -1,4 +1,4 @@
-define(["lodash/internal/baseGet"], ["lodash/internal/toObject"], function(toObject) {
+define("lodash/internal/baseGet", ["lodash/internal/toObject"], function(toObject) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

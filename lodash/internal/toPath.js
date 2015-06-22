@@ -1,4 +1,4 @@
-define(["lodash/internal/toPath"], ["lodash/internal/baseToString", "lodash/lang/isArray"], function(baseToString, isArray) {
+define("lodash/internal/toPath", ["lodash/internal/baseToString", "lodash/lang/isArray"], function(baseToString, isArray) {
   /** Used to match property names within property paths. */
   var rePropName = /[^.[\]]+|\[(?:(-?\d+(?:\.\d+)?)|(["'])((?:(?!\2)[^\n\\]|\\.)*?)\2)\]/g;
 

@@ -1,4 +1,4 @@
-define(["lodash/chain/wrapperChain"], ["lodash/chain/chain"], function(chain) {
+define("lodash/chain/wrapperChain", ["lodash/chain/chain"], function(chain) {
   /**
    * Enables explicit method chaining on the wrapper object.
    *

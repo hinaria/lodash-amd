@@ -1,4 +1,4 @@
-define(["lodash/collection/shuffle"], ["lodash/collection/sample"], function(sample) {
+define("lodash/collection/shuffle", ["lodash/collection/sample"], function(sample) {
   /** Used as references for `-Infinity` and `Infinity`. */
   var POSITIVE_INFINITY = Number.POSITIVE_INFINITY;
 

@@ -1,4 +1,4 @@
-define(["lodash/internal/bindCallback"], ["lodash/utility/identity"], function(identity) {
+define("lodash/internal/bindCallback", ["lodash/utility/identity"], function(identity) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

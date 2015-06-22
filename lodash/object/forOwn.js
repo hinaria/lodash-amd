@@ -1,4 +1,4 @@
-define(["lodash/object/forOwn"], ["lodash/internal/baseForOwn", "lodash/internal/createForOwn"], function(baseForOwn, createForOwn) {
+define("lodash/object/forOwn", ["lodash/internal/baseForOwn", "lodash/internal/createForOwn"], function(baseForOwn, createForOwn) {
   /**
    * Iterates over own enumerable properties of an object invoking `iteratee`
    * for each property. The `iteratee` is bound to `thisArg` and invoked with

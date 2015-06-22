@@ -1,4 +1,4 @@
-define(["lodash/internal/pickByArray"], ["lodash/internal/toObject"], function(toObject) {
+define("lodash/internal/pickByArray", ["lodash/internal/toObject"], function(toObject) {
   /**
    * A specialized version of `_.pick` which picks `object` properties specified
    * by `props`.

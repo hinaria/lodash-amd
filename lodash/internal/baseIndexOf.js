@@ -1,4 +1,4 @@
-define(["lodash/internal/baseIndexOf"], ["lodash/internal/indexOfNaN"], function(indexOfNaN) {
+define("lodash/internal/baseIndexOf", ["lodash/internal/indexOfNaN"], function(indexOfNaN) {
   /**
    * The base implementation of `_.indexOf` without support for binary searches.
    *

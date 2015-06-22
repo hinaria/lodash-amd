@@ -1,4 +1,4 @@
-define(["lodash/internal/isSpace"], [], function() {
+define("lodash/internal/isSpace", [], function() {
   /**
    * Used by `trimmedLeftIndex` and `trimmedRightIndex` to determine if a
    * character code is whitespace.

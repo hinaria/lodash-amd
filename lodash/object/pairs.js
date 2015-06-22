@@ -1,4 +1,4 @@
-define(["lodash/object/pairs"], ["lodash/object/keys", "lodash/internal/toObject"], function(keys, toObject) {
+define("lodash/object/pairs", ["lodash/object/keys", "lodash/internal/toObject"], function(keys, toObject) {
   /**
    * Creates a two dimensional array of the key-value pairs for `object`,
    * e.g. `[[key1, value1], [key2, value2]]`.

@@ -1,4 +1,4 @@
-define(["lodash/string/repeat"], ["lodash/internal/baseToString", "lodash/internal/root"], function(baseToString, root) {
+define("lodash/string/repeat", ["lodash/internal/baseToString", "lodash/internal/root"], function(baseToString, root) {
   /* Native method references for those with the same name as other `lodash` methods. */
   var nativeFloor = Math.floor,
       nativeIsFinite = root.isFinite;

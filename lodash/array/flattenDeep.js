@@ -1,4 +1,4 @@
-define(["lodash/array/flattenDeep"], ["lodash/internal/baseFlatten"], function(baseFlatten) {
+define("lodash/array/flattenDeep", ["lodash/internal/baseFlatten"], function(baseFlatten) {
   /**
    * Recursively flattens a nested array.
    *

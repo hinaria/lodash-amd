@@ -1,4 +1,4 @@
-define(["lodash/internal/baseFind"], [], function() {
+define("lodash/internal/baseFind", [], function() {
   /**
    * The base implementation of `_.find`, `_.findLast`, `_.findKey`, and `_.findLastKey`,
    * without support for callback shorthands and `this` binding, which iterates

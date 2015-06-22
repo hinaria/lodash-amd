@@ -1,4 +1,4 @@
-define(["lodash/internal/lazyClone"], ["lodash/internal/LazyWrapper", "lodash/internal/arrayCopy"], function(LazyWrapper, arrayCopy) {
+define("lodash/internal/lazyClone", ["lodash/internal/LazyWrapper", "lodash/internal/arrayCopy"], function(LazyWrapper, arrayCopy) {
   /**
    * Creates a clone of the lazy wrapper object.
    *

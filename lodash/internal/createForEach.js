@@ -1,4 +1,4 @@
-define(["lodash/internal/createForEach"], ["lodash/internal/bindCallback", "lodash/lang/isArray"], function(bindCallback, isArray) {
+define("lodash/internal/createForEach", ["lodash/internal/bindCallback", "lodash/lang/isArray"], function(bindCallback, isArray) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

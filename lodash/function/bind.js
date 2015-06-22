@@ -1,4 +1,4 @@
-define(["lodash/function/bind"], ["lodash/internal/createWrapper", "lodash/internal/replaceHolders", "lodash/function/restParam"], function(createWrapper, replaceHolders, restParam) {
+define("lodash/function/bind", ["lodash/internal/createWrapper", "lodash/internal/replaceHolders", "lodash/function/restParam"], function(createWrapper, replaceHolders, restParam) {
   /** Used to compose bitmasks for wrapper metadata. */
   var BIND_FLAG = 1,
       PARTIAL_FLAG = 32;

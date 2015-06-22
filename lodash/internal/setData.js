@@ -1,4 +1,4 @@
-define(["lodash/internal/setData"], ["lodash/internal/baseSetData", "lodash/date/now"], function(baseSetData, now) {
+define("lodash/internal/setData", ["lodash/internal/baseSetData", "lodash/date/now"], function(baseSetData, now) {
   /** Used to detect when a function becomes hot. */
   var HOT_COUNT = 150,
       HOT_SPAN = 16;

@@ -1,4 +1,4 @@
-define(["lodash/array/zipObject"], ["lodash/lang/isArray"], function(isArray) {
+define("lodash/array/zipObject", ["lodash/lang/isArray"], function(isArray) {
   /**
    * The inverse of `_.pairs`; this method returns an object composed from arrays
    * of property names and values. Provide either a single two dimensional array,

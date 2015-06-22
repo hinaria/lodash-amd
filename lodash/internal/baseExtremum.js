@@ -1,4 +1,4 @@
-define(["lodash/internal/baseExtremum"], ["lodash/internal/baseEach"], function(baseEach) {
+define("lodash/internal/baseExtremum", ["lodash/internal/baseEach"], function(baseEach) {
   /**
    * Gets the extremum value of `collection` invoking `iteratee` for each value
    * in `collection` to generate the criterion by which the value is ranked.

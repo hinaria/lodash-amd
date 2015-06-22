@@ -1,4 +1,4 @@
-define(["lodash/object/pick"], ["lodash/internal/baseFlatten", "lodash/internal/bindCallback", "lodash/internal/pickByArray", "lodash/internal/pickByCallback", "lodash/function/restParam"], function(baseFlatten, bindCallback, pickByArray, pickByCallback, restParam) {
+define("lodash/object/pick", ["lodash/internal/baseFlatten", "lodash/internal/bindCallback", "lodash/internal/pickByArray", "lodash/internal/pickByCallback", "lodash/function/restParam"], function(baseFlatten, bindCallback, pickByArray, pickByCallback, restParam) {
   /**
    * Creates an object composed of the picked `object` properties. Property
    * names may be specified as individual arguments or as arrays of property

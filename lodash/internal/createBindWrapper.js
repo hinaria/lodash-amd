@@ -1,4 +1,4 @@
-define(["lodash/internal/createBindWrapper"], ["lodash/internal/createCtorWrapper", "lodash/internal/root"], function(createCtorWrapper, root) {
+define("lodash/internal/createBindWrapper", ["lodash/internal/createCtorWrapper", "lodash/internal/root"], function(createCtorWrapper, root) {
   /**
    * Creates a function that wraps `func` and invokes it with the `this`
    * binding of `thisArg`.

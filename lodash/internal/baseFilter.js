@@ -1,4 +1,4 @@
-define(["lodash/internal/baseFilter"], ["lodash/internal/baseEach"], function(baseEach) {
+define("lodash/internal/baseFilter", ["lodash/internal/baseEach"], function(baseEach) {
   /**
    * The base implementation of `_.filter` without support for callback
    * shorthands and `this` binding.

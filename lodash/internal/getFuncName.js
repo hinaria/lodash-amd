@@ -1,4 +1,4 @@
-define(["lodash/internal/getFuncName"], ["lodash/internal/realNames"], function(realNames) {
+define("lodash/internal/getFuncName", ["lodash/internal/realNames"], function(realNames) {
   /**
    * Gets the name of `func`.
    *

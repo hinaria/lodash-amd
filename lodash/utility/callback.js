@@ -1,4 +1,4 @@
-define(["lodash/utility/callback"], ["lodash/internal/baseCallback", "lodash/internal/isIterateeCall", "lodash/internal/isObjectLike", "lodash/utility/matches"], function(baseCallback, isIterateeCall, isObjectLike, matches) {
+define("lodash/utility/callback", ["lodash/internal/baseCallback", "lodash/internal/isIterateeCall", "lodash/internal/isObjectLike", "lodash/utility/matches"], function(baseCallback, isIterateeCall, isObjectLike, matches) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

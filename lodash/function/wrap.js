@@ -1,4 +1,4 @@
-define(["lodash/function/wrap"], ["lodash/internal/createWrapper", "lodash/utility/identity"], function(createWrapper, identity) {
+define("lodash/function/wrap", ["lodash/internal/createWrapper", "lodash/utility/identity"], function(createWrapper, identity) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

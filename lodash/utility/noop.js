@@ -1,4 +1,4 @@
-define(["lodash/utility/noop"], [], function() {
+define("lodash/utility/noop", [], function() {
   /**
    * A no-operation function that returns `undefined` regardless of the
    * arguments it receives.

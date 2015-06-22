@@ -1,4 +1,4 @@
-define(["lodash/internal/baseIsEqualDeep"], ["lodash/internal/equalArrays", "lodash/internal/equalByTag", "lodash/internal/equalObjects", "lodash/lang/isArray", "lodash/lang/isTypedArray"], function(equalArrays, equalByTag, equalObjects, isArray, isTypedArray) {
+define("lodash/internal/baseIsEqualDeep", ["lodash/internal/equalArrays", "lodash/internal/equalByTag", "lodash/internal/equalObjects", "lodash/lang/isArray", "lodash/lang/isTypedArray"], function(equalArrays, equalByTag, equalObjects, isArray, isTypedArray) {
   /** `Object#toString` result references. */
   var argsTag = '[object Arguments]',
       arrayTag = '[object Array]',

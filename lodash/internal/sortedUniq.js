@@ -1,4 +1,4 @@
-define(["lodash/internal/sortedUniq"], [], function() {
+define("lodash/internal/sortedUniq", [], function() {
   /**
    * An implementation of `_.uniq` optimized for sorted arrays without support
    * for callback shorthands and `this` binding.

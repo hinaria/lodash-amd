@@ -1,4 +1,4 @@
-define(["lodash/internal/lazyReverse"], ["lodash/internal/LazyWrapper"], function(LazyWrapper) {
+define("lodash/internal/lazyReverse", ["lodash/internal/LazyWrapper"], function(LazyWrapper) {
   /**
    * Reverses the direction of lazy iteration.
    *

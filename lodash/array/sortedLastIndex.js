@@ -1,4 +1,4 @@
-define(["lodash/array/sortedLastIndex"], ["lodash/internal/createSortedIndex"], function(createSortedIndex) {
+define("lodash/array/sortedLastIndex", ["lodash/internal/createSortedIndex"], function(createSortedIndex) {
   /**
    * This method is like `_.sortedIndex` except that it returns the highest
    * index at which `value` should be inserted into `array` in order to

@@ -1,4 +1,4 @@
-define(["lodash/internal/equalByTag"], [], function() {
+define("lodash/internal/equalByTag", [], function() {
   /** `Object#toString` result references. */
   var boolTag = '[object Boolean]',
       dateTag = '[object Date]',

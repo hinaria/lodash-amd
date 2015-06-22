@@ -1,4 +1,4 @@
-define(["lodash/internal/baseIsEqual"], ["lodash/internal/baseIsEqualDeep", "lodash/lang/isObject", "lodash/internal/isObjectLike"], function(baseIsEqualDeep, isObject, isObjectLike) {
+define("lodash/internal/baseIsEqual", ["lodash/internal/baseIsEqualDeep", "lodash/lang/isObject", "lodash/internal/isObjectLike"], function(baseIsEqualDeep, isObject, isObjectLike) {
   /**
    * The base implementation of `_.isEqual` without support for `this` binding
    * `customizer` functions.

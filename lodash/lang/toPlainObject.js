@@ -1,4 +1,4 @@
-define(["lodash/lang/toPlainObject"], ["lodash/internal/baseCopy", "lodash/object/keysIn"], function(baseCopy, keysIn) {
+define("lodash/lang/toPlainObject", ["lodash/internal/baseCopy", "lodash/object/keysIn"], function(baseCopy, keysIn) {
   /**
    * Converts `value` to a plain object flattening inherited enumerable
    * properties of `value` to own properties of the plain object.

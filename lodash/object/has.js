@@ -1,4 +1,4 @@
-define(["lodash/object/has"], ["lodash/internal/baseGet", "lodash/internal/baseSlice", "lodash/lang/isArguments", "lodash/lang/isArray", "lodash/internal/isIndex", "lodash/internal/isKey", "lodash/internal/isLength", "lodash/array/last", "lodash/internal/toPath"], function(baseGet, baseSlice, isArguments, isArray, isIndex, isKey, isLength, last, toPath) {
+define("lodash/object/has", ["lodash/internal/baseGet", "lodash/internal/baseSlice", "lodash/lang/isArguments", "lodash/lang/isArray", "lodash/internal/isIndex", "lodash/internal/isKey", "lodash/internal/isLength", "lodash/array/last", "lodash/internal/toPath"], function(baseGet, baseSlice, isArguments, isArray, isIndex, isKey, isLength, last, toPath) {
   /** Used for native method references. */
   var objectProto = Object.prototype;
 

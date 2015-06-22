@@ -1,4 +1,4 @@
-define(["lodash/collection/countBy"], ["lodash/internal/createAggregator"], function(createAggregator) {
+define("lodash/collection/countBy", ["lodash/internal/createAggregator"], function(createAggregator) {
   /** Used for native method references. */
   var objectProto = Object.prototype;
 

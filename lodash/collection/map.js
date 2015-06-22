@@ -1,4 +1,4 @@
-define(["lodash/collection/map"], ["lodash/internal/arrayMap", "lodash/internal/baseCallback", "lodash/internal/baseMap", "lodash/lang/isArray"], function(arrayMap, baseCallback, baseMap, isArray) {
+define("lodash/collection/map", ["lodash/internal/arrayMap", "lodash/internal/baseCallback", "lodash/internal/baseMap", "lodash/lang/isArray"], function(arrayMap, baseCallback, baseMap, isArray) {
   /**
    * Creates an array of values by running each element in `collection` through
    * `iteratee`. The `iteratee` is bound to `thisArg` and invoked with three

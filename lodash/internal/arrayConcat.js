@@ -1,4 +1,4 @@
-define(["lodash/internal/arrayConcat"], [], function() {
+define("lodash/internal/arrayConcat", [], function() {
   /**
    * Creates a new array joining `array` with `other`.
    *

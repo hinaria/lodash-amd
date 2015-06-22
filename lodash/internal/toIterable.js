@@ -1,4 +1,4 @@
-define(["lodash/internal/toIterable"], ["lodash/internal/isArrayLike", "lodash/lang/isObject", "lodash/object/values"], function(isArrayLike, isObject, values) {
+define("lodash/internal/toIterable", ["lodash/internal/isArrayLike", "lodash/lang/isObject", "lodash/object/values"], function(isArrayLike, isObject, values) {
   /**
    * Converts `value` to an array-like object if it's not one.
    *

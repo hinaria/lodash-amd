@@ -1,4 +1,4 @@
-define(["lodash/internal/baseFunctions"], ["lodash/lang/isFunction"], function(isFunction) {
+define("lodash/internal/baseFunctions", ["lodash/lang/isFunction"], function(isFunction) {
   /**
    * The base implementation of `_.functions` which creates an array of
    * `object` function property names filtered from those provided.

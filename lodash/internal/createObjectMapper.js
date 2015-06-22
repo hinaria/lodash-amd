@@ -1,4 +1,4 @@
-define(["lodash/internal/createObjectMapper"], ["lodash/internal/baseCallback", "lodash/internal/baseForOwn"], function(baseCallback, baseForOwn) {
+define("lodash/internal/createObjectMapper", ["lodash/internal/baseCallback", "lodash/internal/baseForOwn"], function(baseCallback, baseForOwn) {
   /**
    * Creates a function for `_.mapKeys` or `_.mapValues`.
    *

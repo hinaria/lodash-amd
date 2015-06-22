@@ -1,4 +1,4 @@
-define(["lodash/internal/baseEach"], ["lodash/internal/baseForOwn", "lodash/internal/createBaseEach"], function(baseForOwn, createBaseEach) {
+define("lodash/internal/baseEach", ["lodash/internal/baseForOwn", "lodash/internal/createBaseEach"], function(baseForOwn, createBaseEach) {
   /**
    * The base implementation of `_.forEach` without support for callback
    * shorthands and `this` binding.

@@ -1,4 +1,4 @@
-define(["lodash/internal/baseAt"], ["lodash/internal/isArrayLike", "lodash/internal/isIndex"], function(isArrayLike, isIndex) {
+define("lodash/internal/baseAt", ["lodash/internal/isArrayLike", "lodash/internal/isIndex"], function(isArrayLike, isIndex) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

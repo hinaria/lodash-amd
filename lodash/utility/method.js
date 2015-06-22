@@ -1,4 +1,4 @@
-define(["lodash/utility/method"], ["lodash/internal/invokePath", "lodash/function/restParam"], function(invokePath, restParam) {
+define("lodash/utility/method", ["lodash/internal/invokePath", "lodash/function/restParam"], function(invokePath, restParam) {
   /**
    * Creates a function that invokes the method at `path` on a given object.
    * Any additional arguments are provided to the invoked method.

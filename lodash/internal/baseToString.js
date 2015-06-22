@@ -1,4 +1,4 @@
-define(["lodash/internal/baseToString"], [], function() {
+define("lodash/internal/baseToString", [], function() {
   /**
    * Converts `value` to a string if it's not one. An empty string is returned
    * for `null` or `undefined` values.

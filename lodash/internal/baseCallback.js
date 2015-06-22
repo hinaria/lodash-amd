@@ -1,4 +1,4 @@
-define(["lodash/internal/baseCallback"], ["lodash/internal/baseMatches", "lodash/internal/baseMatchesProperty", "lodash/internal/bindCallback", "lodash/utility/identity", "lodash/utility/property"], function(baseMatches, baseMatchesProperty, bindCallback, identity, property) {
+define("lodash/internal/baseCallback", ["lodash/internal/baseMatches", "lodash/internal/baseMatchesProperty", "lodash/internal/bindCallback", "lodash/utility/identity", "lodash/utility/property"], function(baseMatches, baseMatchesProperty, bindCallback, identity, property) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

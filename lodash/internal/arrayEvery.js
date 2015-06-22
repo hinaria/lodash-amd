@@ -1,4 +1,4 @@
-define(["lodash/internal/arrayEvery"], [], function() {
+define("lodash/internal/arrayEvery", [], function() {
   /**
    * A specialized version of `_.every` for arrays without support for callback
    * shorthands and `this` binding.

@@ -1,4 +1,4 @@
-define(["lodash/internal/isLength"], [], function() {
+define("lodash/internal/isLength", [], function() {
   /**
    * Used as the [maximum length](https://people.mozilla.org/~jorendorff/es6-draft.html#sec-number.max_safe_integer)
    * of an array-like value.

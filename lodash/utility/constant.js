@@ -1,4 +1,4 @@
-define(["lodash/utility/constant"], [], function() {
+define("lodash/utility/constant", [], function() {
   /**
    * Creates a function that returns `value`.
    *

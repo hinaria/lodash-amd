@@ -1,4 +1,4 @@
-define(["lodash/string/padRight"], ["lodash/internal/createPadDir"], function(createPadDir) {
+define("lodash/string/padRight", ["lodash/internal/createPadDir"], function(createPadDir) {
   /**
    * Pads `string` on the right side if it's shorter than `length`. Padding
    * characters are truncated if they exceed `length`.

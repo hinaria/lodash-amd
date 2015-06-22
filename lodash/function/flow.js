@@ -1,4 +1,4 @@
-define(["lodash/function/flow"], ["lodash/internal/createFlow"], function(createFlow) {
+define("lodash/function/flow", ["lodash/internal/createFlow"], function(createFlow) {
   /**
    * Creates a function that returns the result of invoking the provided
    * functions with the `this` binding of the created function, where each

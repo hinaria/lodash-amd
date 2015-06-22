@@ -1,4 +1,4 @@
-define(["lodash/internal/arrayExtremum"], [], function() {
+define("lodash/internal/arrayExtremum", [], function() {
   /**
    * A specialized version of `baseExtremum` for arrays which invokes `iteratee`
    * with one argument: (value).

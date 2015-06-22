@@ -1,4 +1,4 @@
-define(["lodash/array/union"], ["lodash/internal/baseFlatten", "lodash/internal/baseUniq", "lodash/function/restParam"], function(baseFlatten, baseUniq, restParam) {
+define("lodash/array/union", ["lodash/internal/baseFlatten", "lodash/internal/baseUniq", "lodash/function/restParam"], function(baseFlatten, baseUniq, restParam) {
   /**
    * Creates an array of unique values, in order, from all of the provided arrays
    * using [`SameValueZero`](https://people.mozilla.org/~jorendorff/es6-draft.html#sec-samevaluezero)

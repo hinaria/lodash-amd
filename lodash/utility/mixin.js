@@ -1,4 +1,4 @@
-define(["lodash/utility/mixin"], ["lodash/internal/arrayCopy", "lodash/internal/arrayPush", "lodash/internal/baseFunctions", "lodash/lang/isFunction", "lodash/lang/isObject", "lodash/object/keys"], function(arrayCopy, arrayPush, baseFunctions, isFunction, isObject, keys) {
+define("lodash/utility/mixin", ["lodash/internal/arrayCopy", "lodash/internal/arrayPush", "lodash/internal/baseFunctions", "lodash/lang/isFunction", "lodash/lang/isObject", "lodash/object/keys"], function(arrayCopy, arrayPush, baseFunctions, isFunction, isObject, keys) {
   /**
    * Adds all own enumerable function properties of a source object to the
    * destination object. If `object` is a function then methods are added to

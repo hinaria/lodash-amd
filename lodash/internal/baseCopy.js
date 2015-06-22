@@ -1,4 +1,4 @@
-define(["lodash/internal/baseCopy"], [], function() {
+define("lodash/internal/baseCopy", [], function() {
   /**
    * Copies properties of `source` to `object`.
    *

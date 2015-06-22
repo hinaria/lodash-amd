@@ -1,4 +1,4 @@
-define(["lodash/utility/identity"], [], function() {
+define("lodash/utility/identity", [], function() {
   /**
    * This method returns the first argument provided to it.
    *

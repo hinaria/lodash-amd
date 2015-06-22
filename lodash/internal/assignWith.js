@@ -1,4 +1,4 @@
-define(["lodash/internal/assignWith"], ["lodash/object/keys"], function(keys) {
+define("lodash/internal/assignWith", ["lodash/object/keys"], function(keys) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

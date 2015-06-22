@@ -1,4 +1,4 @@
-define(["lodash/internal/cacheIndexOf"], ["lodash/lang/isObject"], function(isObject) {
+define("lodash/internal/cacheIndexOf", ["lodash/lang/isObject"], function(isObject) {
   /**
    * Checks if `value` is in `cache` mimicking the return signature of
    * `_.indexOf` by returning `0` if the value is found, else `-1`.

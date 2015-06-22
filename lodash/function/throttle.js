@@ -1,4 +1,4 @@
-define(["lodash/function/throttle"], ["lodash/function/debounce", "lodash/lang/isObject"], function(debounce, isObject) {
+define("lodash/function/throttle", ["lodash/function/debounce", "lodash/lang/isObject"], function(debounce, isObject) {
   /** Used as the `TypeError` message for "Functions" methods. */
   var FUNC_ERROR_TEXT = 'Expected a function';
 

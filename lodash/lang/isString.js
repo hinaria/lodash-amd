@@ -1,4 +1,4 @@
-define(["lodash/lang/isString"], ["lodash/internal/isObjectLike"], function(isObjectLike) {
+define("lodash/lang/isString", ["lodash/internal/isObjectLike"], function(isObjectLike) {
   /** `Object#toString` result references. */
   var stringTag = '[object String]';
 

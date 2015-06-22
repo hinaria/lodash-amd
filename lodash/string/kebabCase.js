@@ -1,4 +1,4 @@
-define(["lodash/string/kebabCase"], ["lodash/internal/createCompounder"], function(createCompounder) {
+define("lodash/string/kebabCase", ["lodash/internal/createCompounder"], function(createCompounder) {
   /**
    * Converts `string` to [kebab case](https://en.wikipedia.org/wiki/Letter_case#Special_case_styles).
    *

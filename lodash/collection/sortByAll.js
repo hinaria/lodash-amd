@@ -1,4 +1,4 @@
-define(["lodash/collection/sortByAll"], ["lodash/internal/baseFlatten", "lodash/internal/baseSortByOrder", "lodash/internal/isIterateeCall", "lodash/function/restParam"], function(baseFlatten, baseSortByOrder, isIterateeCall, restParam) {
+define("lodash/collection/sortByAll", ["lodash/internal/baseFlatten", "lodash/internal/baseSortByOrder", "lodash/internal/isIterateeCall", "lodash/function/restParam"], function(baseFlatten, baseSortByOrder, isIterateeCall, restParam) {
   /**
    * This method is like `_.sortBy` except that it can sort by multiple iteratees
    * or property names.

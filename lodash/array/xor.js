@@ -1,4 +1,4 @@
-define(["lodash/array/xor"], ["lodash/internal/arrayPush", "lodash/internal/baseDifference", "lodash/internal/baseUniq", "lodash/internal/isArrayLike"], function(arrayPush, baseDifference, baseUniq, isArrayLike) {
+define("lodash/array/xor", ["lodash/internal/arrayPush", "lodash/internal/baseDifference", "lodash/internal/baseUniq", "lodash/internal/isArrayLike"], function(arrayPush, baseDifference, baseUniq, isArrayLike) {
   /**
    * Creates an array of unique values that is the [symmetric difference](https://en.wikipedia.org/wiki/Symmetric_difference)
    * of the provided arrays.

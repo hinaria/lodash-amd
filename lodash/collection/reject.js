@@ -1,4 +1,4 @@
-define(["lodash/collection/reject"], ["lodash/internal/arrayFilter", "lodash/internal/baseCallback", "lodash/internal/baseFilter", "lodash/lang/isArray"], function(arrayFilter, baseCallback, baseFilter, isArray) {
+define("lodash/collection/reject", ["lodash/internal/arrayFilter", "lodash/internal/baseCallback", "lodash/internal/baseFilter", "lodash/lang/isArray"], function(arrayFilter, baseCallback, baseFilter, isArray) {
   /**
    * The opposite of `_.filter`; this method returns the elements of `collection`
    * that `predicate` does **not** return truthy for.

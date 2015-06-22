@@ -1,4 +1,4 @@
-define(["lodash/internal/arrayReduceRight"], [], function() {
+define("lodash/internal/arrayReduceRight", [], function() {
   /**
    * A specialized version of `_.reduceRight` for arrays without support for
    * callback shorthands and `this` binding.

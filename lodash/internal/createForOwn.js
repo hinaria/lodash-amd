@@ -1,4 +1,4 @@
-define(["lodash/internal/createForOwn"], ["lodash/internal/bindCallback"], function(bindCallback) {
+define("lodash/internal/createForOwn", ["lodash/internal/bindCallback"], function(bindCallback) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

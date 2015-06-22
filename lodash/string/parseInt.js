@@ -1,4 +1,4 @@
-define(["lodash/string/parseInt"], ["lodash/internal/isIterateeCall", "lodash/internal/root", "lodash/string/trim"], function(isIterateeCall, root, trim) {
+define("lodash/string/parseInt", ["lodash/internal/isIterateeCall", "lodash/internal/root", "lodash/string/trim"], function(isIterateeCall, root, trim) {
   /** Used to detect hexadecimal string values. */
   var reHasHexPrefix = /^0[xX]/;
 

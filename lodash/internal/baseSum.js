@@ -1,4 +1,4 @@
-define(["lodash/internal/baseSum"], ["lodash/internal/baseEach"], function(baseEach) {
+define("lodash/internal/baseSum", ["lodash/internal/baseEach"], function(baseEach) {
   /**
    * The base implementation of `_.sum` without support for callback shorthands
    * and `this` binding.

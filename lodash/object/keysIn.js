@@ -1,4 +1,4 @@
-define(["lodash/object/keysIn"], ["lodash/lang/isArguments", "lodash/lang/isArray", "lodash/internal/isIndex", "lodash/internal/isLength", "lodash/lang/isObject"], function(isArguments, isArray, isIndex, isLength, isObject) {
+define("lodash/object/keysIn", ["lodash/lang/isArguments", "lodash/lang/isArray", "lodash/internal/isIndex", "lodash/internal/isLength", "lodash/lang/isObject"], function(isArguments, isArray, isIndex, isLength, isObject) {
   /** Used for native method references. */
   var objectProto = Object.prototype;
 

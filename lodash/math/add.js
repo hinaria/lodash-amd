@@ -1,4 +1,4 @@
-define(["lodash/math/add"], [], function() {
+define("lodash/math/add", [], function() {
   /**
    * Adds two numbers.
    *

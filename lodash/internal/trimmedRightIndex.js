@@ -1,4 +1,4 @@
-define(["lodash/internal/trimmedRightIndex"], ["lodash/internal/isSpace"], function(isSpace) {
+define("lodash/internal/trimmedRightIndex", ["lodash/internal/isSpace"], function(isSpace) {
   /**
    * Used by `_.trim` and `_.trimRight` to get the index of the last non-whitespace
    * character of `string`.

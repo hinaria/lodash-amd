@@ -1,4 +1,4 @@
-define(["lodash/string/words"], ["lodash/internal/baseToString", "lodash/internal/isIterateeCall"], function(baseToString, isIterateeCall) {
+define("lodash/string/words", ["lodash/internal/baseToString", "lodash/internal/isIterateeCall"], function(baseToString, isIterateeCall) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

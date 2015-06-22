@@ -1,4 +1,4 @@
-define(["lodash/string/templateSettings"], ["lodash/string/escape", "lodash/internal/reEscape", "lodash/internal/reEvaluate", "lodash/internal/reInterpolate"], function(escape, reEscape, reEvaluate, reInterpolate) {
+define("lodash/string/templateSettings", ["lodash/string/escape", "lodash/internal/reEscape", "lodash/internal/reEvaluate", "lodash/internal/reInterpolate"], function(escape, reEscape, reEvaluate, reInterpolate) {
   /**
    * By default, the template delimiters used by lodash are like those in
    * embedded Ruby (ERB). Change the following template settings to use

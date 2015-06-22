@@ -1,2 +1,2 @@
-define(["lodash/function/backflow"], ["lodash/function/flowRight"], function(flowRight) {  return flowRight;
+define("lodash/function/backflow", ["lodash/function/flowRight"], function(flowRight) {  return flowRight;
 });

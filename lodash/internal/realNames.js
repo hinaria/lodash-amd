@@ -1,4 +1,4 @@
-define(["lodash/internal/realNames"], [], function() {
+define("lodash/internal/realNames", [], function() {
   /** Used to lookup unminified function names. */
   var realNames = {};
 

@@ -1,4 +1,4 @@
-define(["lodash/lang/isFunction"], ["lodash/lang/isObject"], function(isObject) {
+define("lodash/lang/isFunction", ["lodash/lang/isObject"], function(isObject) {
   /** `Object#toString` result references. */
   var funcTag = '[object Function]';
 

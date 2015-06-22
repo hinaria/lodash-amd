@@ -1,4 +1,4 @@
-define(["lodash/chain/wrapperToString"], [], function() {
+define("lodash/chain/wrapperToString", [], function() {
   /**
    * Produces the result of coercing the unwrapped value to a string.
    *

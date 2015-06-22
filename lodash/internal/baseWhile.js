@@ -1,4 +1,4 @@
-define(["lodash/internal/baseWhile"], ["lodash/internal/baseSlice"], function(baseSlice) {
+define("lodash/internal/baseWhile", ["lodash/internal/baseSlice"], function(baseSlice) {
   /**
    * The base implementation of `_.dropRightWhile`, `_.dropWhile`, `_.takeRightWhile`,
    * and `_.takeWhile` without support for callback shorthands and `this` binding.

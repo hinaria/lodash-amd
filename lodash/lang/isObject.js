@@ -1,4 +1,4 @@
-define(["lodash/lang/isObject"], [], function() {
+define("lodash/lang/isObject", [], function() {
   /**
    * Checks if `value` is the [language type](https://es5.github.io/#x8) of `Object`.
    * (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)

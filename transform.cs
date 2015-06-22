@@ -35,7 +35,7 @@ foreach (var file in files)
         var relativeName = toModuleName(sourceDirectory, file);
         var moduleName = relativeName.Substring(0, relativeName.Length - 3); // strip `.js`
 
-        return $"define([\"{moduleName}\"], ["
+        return $"define(\"{moduleName}\", ["
             + module.Replace(groups["data"].Value, x => "\"" + toModuleName(fileDirectory, x.Groups["name"].Value) + "\"");
     });
 

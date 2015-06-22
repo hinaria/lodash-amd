@@ -1,4 +1,4 @@
-define(["lodash/string/unescape"], ["lodash/internal/baseToString", "lodash/internal/unescapeHtmlChar"], function(baseToString, unescapeHtmlChar) {
+define("lodash/string/unescape", ["lodash/internal/baseToString", "lodash/internal/unescapeHtmlChar"], function(baseToString, unescapeHtmlChar) {
   /** Used to match HTML entities and HTML characters. */
   var reEscapedHtml = /&(?:amp|lt|gt|quot|#39|#96);/g,
       reHasEscapedHtml = RegExp(reEscapedHtml.source);

@@ -1,4 +1,4 @@
-define(["lodash/object/defaults"], ["lodash/object/assign", "lodash/internal/assignDefaults", "lodash/function/restParam"], function(assign, assignDefaults, restParam) {
+define("lodash/object/defaults", ["lodash/object/assign", "lodash/internal/assignDefaults", "lodash/function/restParam"], function(assign, assignDefaults, restParam) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

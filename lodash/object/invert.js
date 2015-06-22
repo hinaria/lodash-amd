@@ -1,4 +1,4 @@
-define(["lodash/object/invert"], ["lodash/internal/isIterateeCall", "lodash/object/keys"], function(isIterateeCall, keys) {
+define("lodash/object/invert", ["lodash/internal/isIterateeCall", "lodash/object/keys"], function(isIterateeCall, keys) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

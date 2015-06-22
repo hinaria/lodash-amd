@@ -1,2 +1,2 @@
-define(["lodash/collection/collect"], ["lodash/collection/map"], function(map) {  return map;
+define("lodash/collection/collect", ["lodash/collection/map"], function(map) {  return map;
 });

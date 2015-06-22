@@ -1,4 +1,4 @@
-define(["lodash/internal/baseFindIndex"], [], function() {
+define("lodash/internal/baseFindIndex", [], function() {
   /**
    * The base implementation of `_.findIndex` and `_.findLastIndex` without
    * support for callback shorthands and `this` binding.

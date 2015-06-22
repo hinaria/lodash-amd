@@ -1,4 +1,4 @@
-define(["lodash/math/floor"], ["lodash/internal/createRound"], function(createRound) {
+define("lodash/math/floor", ["lodash/internal/createRound"], function(createRound) {
   /**
    * Calculates `n` rounded down to `precision`.
    *

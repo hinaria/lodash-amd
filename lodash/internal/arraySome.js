@@ -1,4 +1,4 @@
-define(["lodash/internal/arraySome"], [], function() {
+define("lodash/internal/arraySome", [], function() {
   /**
    * A specialized version of `_.some` for arrays without support for callback
    * shorthands and `this` binding.

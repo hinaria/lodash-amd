@@ -1,4 +1,4 @@
-define(["lodash/lang/lte"], [], function() {
+define("lodash/lang/lte", [], function() {
   /**
    * Checks if `value` is less than or equal to `other`.
    *

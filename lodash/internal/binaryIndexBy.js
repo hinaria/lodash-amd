@@ -1,4 +1,4 @@
-define(["lodash/internal/binaryIndexBy"], [], function() {
+define("lodash/internal/binaryIndexBy", [], function() {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

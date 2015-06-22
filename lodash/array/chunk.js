@@ -1,4 +1,4 @@
-define(["lodash/array/chunk"], ["lodash/internal/baseSlice", "lodash/internal/isIterateeCall"], function(baseSlice, isIterateeCall) {
+define("lodash/array/chunk", ["lodash/internal/baseSlice", "lodash/internal/isIterateeCall"], function(baseSlice, isIterateeCall) {
   /* Native method references for those with the same name as other `lodash` methods. */
   var nativeCeil = Math.ceil,
       nativeFloor = Math.floor,

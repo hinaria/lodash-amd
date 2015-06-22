@@ -1,4 +1,4 @@
-define(["lodash/object/merge"], ["lodash/internal/baseMerge", "lodash/internal/createAssigner"], function(baseMerge, createAssigner) {
+define("lodash/object/merge", ["lodash/internal/baseMerge", "lodash/internal/createAssigner"], function(baseMerge, createAssigner) {
   /**
    * Recursively merges own enumerable properties of the source object(s), that
    * don't resolve to `undefined` into the destination object. Subsequent sources

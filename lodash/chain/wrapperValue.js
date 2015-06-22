@@ -1,4 +1,4 @@
-define(["lodash/chain/wrapperValue"], ["lodash/internal/baseWrapperValue"], function(baseWrapperValue) {
+define("lodash/chain/wrapperValue", ["lodash/internal/baseWrapperValue"], function(baseWrapperValue) {
   /**
    * Executes the chained sequence to extract the unwrapped value.
    *

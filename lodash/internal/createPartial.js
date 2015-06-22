@@ -1,4 +1,4 @@
-define(["lodash/internal/createPartial"], ["lodash/internal/createWrapper", "lodash/internal/replaceHolders", "lodash/function/restParam"], function(createWrapper, replaceHolders, restParam) {
+define("lodash/internal/createPartial", ["lodash/internal/createWrapper", "lodash/internal/replaceHolders", "lodash/function/restParam"], function(createWrapper, replaceHolders, restParam) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

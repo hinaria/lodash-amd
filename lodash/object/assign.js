@@ -1,4 +1,4 @@
-define(["lodash/object/assign"], ["lodash/internal/assignWith", "lodash/internal/baseAssign", "lodash/internal/createAssigner"], function(assignWith, baseAssign, createAssigner) {
+define("lodash/object/assign", ["lodash/internal/assignWith", "lodash/internal/baseAssign", "lodash/internal/createAssigner"], function(assignWith, baseAssign, createAssigner) {
   /**
    * Assigns own enumerable properties of source object(s) to the destination
    * object. Subsequent sources overwrite property assignments of previous sources.

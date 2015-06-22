@@ -1,4 +1,4 @@
-define(["lodash/internal/escapeHtmlChar"], [], function() {
+define("lodash/internal/escapeHtmlChar", [], function() {
   /** Used to map characters to HTML entities. */
   var htmlEscapes = {
     '&': '&amp;',

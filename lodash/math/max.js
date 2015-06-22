@@ -1,4 +1,4 @@
-define(["lodash/math/max"], ["lodash/internal/createExtremum", "lodash/lang/gt"], function(createExtremum, gt) {
+define("lodash/math/max", ["lodash/internal/createExtremum", "lodash/lang/gt"], function(createExtremum, gt) {
   /** Used as references for `-Infinity` and `Infinity`. */
   var NEGATIVE_INFINITY = Number.NEGATIVE_INFINITY;
 

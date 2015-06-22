@@ -1,4 +1,4 @@
-define(["lodash/internal/baseUniq"], ["lodash/internal/baseIndexOf", "lodash/internal/cacheIndexOf", "lodash/internal/createCache"], function(baseIndexOf, cacheIndexOf, createCache) {
+define("lodash/internal/baseUniq", ["lodash/internal/baseIndexOf", "lodash/internal/cacheIndexOf", "lodash/internal/createCache"], function(baseIndexOf, cacheIndexOf, createCache) {
   /** Used as the size to enable large array optimizations. */
   var LARGE_ARRAY_SIZE = 200;
 

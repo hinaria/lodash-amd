@@ -1,4 +1,4 @@
-define(["lodash/array/lastIndexOf"], ["lodash/internal/binaryIndex", "lodash/internal/indexOfNaN"], function(binaryIndex, indexOfNaN) {
+define("lodash/array/lastIndexOf", ["lodash/internal/binaryIndex", "lodash/internal/indexOfNaN"], function(binaryIndex, indexOfNaN) {
   /* Native method references for those with the same name as other `lodash` methods. */
   var nativeMax = Math.max,
       nativeMin = Math.min;

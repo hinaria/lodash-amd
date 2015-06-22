@@ -1,4 +1,4 @@
-define(["lodash/collection/sortByOrder"], ["lodash/internal/baseSortByOrder", "lodash/lang/isArray", "lodash/internal/isIterateeCall"], function(baseSortByOrder, isArray, isIterateeCall) {
+define("lodash/collection/sortByOrder", ["lodash/internal/baseSortByOrder", "lodash/lang/isArray", "lodash/internal/isIterateeCall"], function(baseSortByOrder, isArray, isIterateeCall) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

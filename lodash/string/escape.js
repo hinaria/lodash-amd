@@ -1,4 +1,4 @@
-define(["lodash/string/escape"], ["lodash/internal/baseToString", "lodash/internal/escapeHtmlChar"], function(baseToString, escapeHtmlChar) {
+define("lodash/string/escape", ["lodash/internal/baseToString", "lodash/internal/escapeHtmlChar"], function(baseToString, escapeHtmlChar) {
   /** Used to match HTML entities and HTML characters. */
   var reUnescapedHtml = /[&<>"'`]/g,
       reHasUnescapedHtml = RegExp(reUnescapedHtml.source);

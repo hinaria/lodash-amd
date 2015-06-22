@@ -1,4 +1,4 @@
-define(["lodash/internal/createRound"], [], function() {
+define("lodash/internal/createRound", [], function() {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

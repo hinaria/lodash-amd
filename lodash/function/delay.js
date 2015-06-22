@@ -1,4 +1,4 @@
-define(["lodash/function/delay"], ["lodash/internal/baseDelay", "lodash/function/restParam"], function(baseDelay, restParam) {
+define("lodash/function/delay", ["lodash/internal/baseDelay", "lodash/function/restParam"], function(baseDelay, restParam) {
   /**
    * Invokes `func` after `wait` milliseconds. Any additional arguments are
    * provided to `func` when it is invoked.

@@ -1,4 +1,4 @@
-define(["lodash/object/valuesIn"], ["lodash/internal/baseValues", "lodash/object/keysIn"], function(baseValues, keysIn) {
+define("lodash/object/valuesIn", ["lodash/internal/baseValues", "lodash/object/keysIn"], function(baseValues, keysIn) {
   /**
    * Creates an array of the own and inherited enumerable property values
    * of `object`.

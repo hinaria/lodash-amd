@@ -1,4 +1,4 @@
-define(["lodash/internal/baseWrapperValue"], ["lodash/internal/LazyWrapper", "lodash/internal/arrayPush"], function(LazyWrapper, arrayPush) {
+define("lodash/internal/baseWrapperValue", ["lodash/internal/LazyWrapper", "lodash/internal/arrayPush"], function(LazyWrapper, arrayPush) {
   /**
    * The base implementation of `wrapperValue` which returns the result of
    * performing a sequence of actions on the unwrapped `value`, where each

@@ -1,4 +1,4 @@
-define(["lodash/function/partial"], ["lodash/internal/createPartial"], function(createPartial) {
+define("lodash/function/partial", ["lodash/internal/createPartial"], function(createPartial) {
   /** Used to compose bitmasks for wrapper metadata. */
   var PARTIAL_FLAG = 32;
 

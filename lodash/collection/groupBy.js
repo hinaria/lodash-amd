@@ -1,4 +1,4 @@
-define(["lodash/collection/groupBy"], ["lodash/internal/createAggregator"], function(createAggregator) {
+define("lodash/collection/groupBy", ["lodash/internal/createAggregator"], function(createAggregator) {
   /** Used for native method references. */
   var objectProto = Object.prototype;
 

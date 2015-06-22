@@ -1,4 +1,4 @@
-define(["lodash/internal/createFindIndex"], ["lodash/internal/baseCallback", "lodash/internal/baseFindIndex"], function(baseCallback, baseFindIndex) {
+define("lodash/internal/createFindIndex", ["lodash/internal/baseCallback", "lodash/internal/baseFindIndex"], function(baseCallback, baseFindIndex) {
   /**
    * Creates a `_.findIndex` or `_.findLastIndex` function.
    *

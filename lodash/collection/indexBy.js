@@ -1,4 +1,4 @@
-define(["lodash/collection/indexBy"], ["lodash/internal/createAggregator"], function(createAggregator) {
+define("lodash/collection/indexBy", ["lodash/internal/createAggregator"], function(createAggregator) {
   /**
    * Creates an object composed of keys generated from the results of running
    * each element of `collection` through `iteratee`. The corresponding value

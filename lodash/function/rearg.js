@@ -1,4 +1,4 @@
-define(["lodash/function/rearg"], ["lodash/internal/baseFlatten", "lodash/internal/createWrapper", "lodash/function/restParam"], function(baseFlatten, createWrapper, restParam) {
+define("lodash/function/rearg", ["lodash/internal/baseFlatten", "lodash/internal/createWrapper", "lodash/function/restParam"], function(baseFlatten, createWrapper, restParam) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

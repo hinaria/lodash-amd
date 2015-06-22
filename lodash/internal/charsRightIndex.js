@@ -1,4 +1,4 @@
-define(["lodash/internal/charsRightIndex"], [], function() {
+define("lodash/internal/charsRightIndex", [], function() {
   /**
    * Used by `_.trim` and `_.trimRight` to get the index of the last character
    * of `string` that is not found in `chars`.

@@ -1,4 +1,4 @@
-define(["lodash/internal/baseSortByOrder"], ["lodash/internal/arrayMap", "lodash/internal/baseCallback", "lodash/internal/baseMap", "lodash/internal/baseSortBy", "lodash/internal/compareMultiple"], function(arrayMap, baseCallback, baseMap, baseSortBy, compareMultiple) {
+define("lodash/internal/baseSortByOrder", ["lodash/internal/arrayMap", "lodash/internal/baseCallback", "lodash/internal/baseMap", "lodash/internal/baseSortBy", "lodash/internal/compareMultiple"], function(arrayMap, baseCallback, baseMap, baseSortBy, compareMultiple) {
   /**
    * The base implementation of `_.sortByOrder` without param guards.
    *

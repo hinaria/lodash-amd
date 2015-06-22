@@ -1,4 +1,4 @@
-define(["lodash/internal/createSortedIndex"], ["lodash/internal/baseCallback", "lodash/internal/binaryIndex", "lodash/internal/binaryIndexBy"], function(baseCallback, binaryIndex, binaryIndexBy) {
+define("lodash/internal/createSortedIndex", ["lodash/internal/baseCallback", "lodash/internal/binaryIndex", "lodash/internal/binaryIndexBy"], function(baseCallback, binaryIndex, binaryIndexBy) {
   /**
    * Creates a `_.sortedIndex` or `_.sortedLastIndex` function.
    *

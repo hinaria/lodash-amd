@@ -1,4 +1,4 @@
-define(["lodash/lang/isNumber"], ["lodash/internal/isObjectLike"], function(isObjectLike) {
+define("lodash/lang/isNumber", ["lodash/internal/isObjectLike"], function(isObjectLike) {
   /** `Object#toString` result references. */
   var numberTag = '[object Number]';
 

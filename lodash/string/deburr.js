@@ -1,4 +1,4 @@
-define(["lodash/string/deburr"], ["lodash/internal/baseToString", "lodash/internal/deburrLetter"], function(baseToString, deburrLetter) {
+define("lodash/string/deburr", ["lodash/internal/baseToString", "lodash/internal/deburrLetter"], function(baseToString, deburrLetter) {
   /** Used to match [combining diacritical marks](https://en.wikipedia.org/wiki/Combining_Diacritical_Marks). */
   var reComboMark = /[\u0300-\u036f\ufe20-\ufe23]/g;
 

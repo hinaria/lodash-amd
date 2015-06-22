@@ -1,4 +1,4 @@
-define(["lodash/chain/wrapperReverse"], ["lodash/internal/LazyWrapper", "lodash/internal/LodashWrapper", "lodash/chain/thru"], function(LazyWrapper, LodashWrapper, thru) {
+define("lodash/chain/wrapperReverse", ["lodash/internal/LazyWrapper", "lodash/internal/LodashWrapper", "lodash/chain/thru"], function(LazyWrapper, LodashWrapper, thru) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

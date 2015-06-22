@@ -1,4 +1,4 @@
-define(["lodash/collection/sample"], ["lodash/internal/baseRandom", "lodash/internal/isIterateeCall", "lodash/lang/toArray", "lodash/internal/toIterable"], function(baseRandom, isIterateeCall, toArray, toIterable) {
+define("lodash/collection/sample", ["lodash/internal/baseRandom", "lodash/internal/isIterateeCall", "lodash/lang/toArray", "lodash/internal/toIterable"], function(baseRandom, isIterateeCall, toArray, toIterable) {
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 

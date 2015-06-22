@@ -1,4 +1,4 @@
-define(["lodash/object/set"], ["lodash/internal/isIndex", "lodash/internal/isKey", "lodash/lang/isObject", "lodash/internal/toPath"], function(isIndex, isKey, isObject, toPath) {
+define("lodash/object/set", ["lodash/internal/isIndex", "lodash/internal/isKey", "lodash/lang/isObject", "lodash/internal/toPath"], function(isIndex, isKey, isObject, toPath) {
   /**
    * Sets the property value of `path` on `object`. If a portion of `path`
    * does not exist it is created.

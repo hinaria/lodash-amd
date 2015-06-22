@@ -1,4 +1,4 @@
-define(["lodash/function/modArgs"], ["lodash/internal/arrayEvery", "lodash/internal/baseFlatten", "lodash/internal/baseIsFunction", "lodash/function/restParam"], function(arrayEvery, baseFlatten, baseIsFunction, restParam) {
+define("lodash/function/modArgs", ["lodash/internal/arrayEvery", "lodash/internal/baseFlatten", "lodash/internal/baseIsFunction", "lodash/function/restParam"], function(arrayEvery, baseFlatten, baseIsFunction, restParam) {
   /** Used as the `TypeError` message for "Functions" methods. */
   var FUNC_ERROR_TEXT = 'Expected a function';
 

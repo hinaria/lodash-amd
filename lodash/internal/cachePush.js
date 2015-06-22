@@ -1,4 +1,4 @@
-define(["lodash/internal/cachePush"], ["lodash/lang/isObject"], function(isObject) {
+define("lodash/internal/cachePush", ["lodash/lang/isObject"], function(isObject) {
   /**
    * Adds `value` to the cache.
    *

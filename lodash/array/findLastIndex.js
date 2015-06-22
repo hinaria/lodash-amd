@@ -1,4 +1,4 @@
-define(["lodash/array/findLastIndex"], ["lodash/internal/createFindIndex"], function(createFindIndex) {
+define("lodash/array/findLastIndex", ["lodash/internal/createFindIndex"], function(createFindIndex) {
   /**
    * This method is like `_.findIndex` except that it iterates over elements
    * of `collection` from right to left.

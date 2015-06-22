@@ -1,4 +1,4 @@
-define(["lodash/object/findLastKey"], ["lodash/internal/baseForOwnRight", "lodash/internal/createFindKey"], function(baseForOwnRight, createFindKey) {
+define("lodash/object/findLastKey", ["lodash/internal/baseForOwnRight", "lodash/internal/createFindKey"], function(baseForOwnRight, createFindKey) {
   /**
    * This method is like `_.findKey` except that it iterates over elements of
    * a collection in the opposite order.

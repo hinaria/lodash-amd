@@ -1,4 +1,4 @@
-define(["lodash/function/negate"], [], function() {
+define("lodash/function/negate", [], function() {
   /** Used as the `TypeError` message for "Functions" methods. */
   var FUNC_ERROR_TEXT = 'Expected a function';
 
